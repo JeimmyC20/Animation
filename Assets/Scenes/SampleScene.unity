@@ -504,6 +504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Naturaleza
       objectReference: {fileID: 0}
+    - target: {fileID: 3546104149434181152, guid: eb69c077fd976b042a73f7d7ed0aa3b6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f53d719b6ff6e8241810090139cd8d02, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -618,6 +622,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8014037090682567881, guid: 3c83fd94d242eab4598b736bcdd55c59, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 99563794981a5aa4a9a965a02d11c3a8, type: 2}
     - target: {fileID: 919132149155446097, guid: 3c83fd94d242eab4598b736bcdd55c59, type: 3}
       propertyPath: m_Name
       value: Agua
@@ -691,6 +699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aire
       objectReference: {fileID: 0}
+    - target: {fileID: 6062259017510556021, guid: 41190dd649290384aaa92f0c7b107b60, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a20719d603d031147a719cf54a9ea7a3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -756,6 +768,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2646536843911007784, guid: f3a6224ca18aa1345b755b6b09d80d11, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7336c95a89b85bb42a57e2b8aec3fdb7, type: 2}
     - target: {fileID: 919132149155446097, guid: f3a6224ca18aa1345b755b6b09d80d11, type: 3}
       propertyPath: m_Name
       value: Fuego
