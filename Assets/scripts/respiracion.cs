@@ -42,11 +42,11 @@ public class respiracion : MonoBehaviour
             anim.SetTrigger("salto");
 
         // --- POSE GUARDIAN (S mantenido) ---
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.P))
             anim.SetTrigger("pose");
 
         // --- RECOGER OBJETO (A) ---
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.O))
             anim.SetTrigger("recoger");
     }
 }
