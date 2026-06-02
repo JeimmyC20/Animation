@@ -112,7 +112,3182 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: respiracion(Clone)
+      parentName: 
+      position: {x: 4.440892e-18, y: 0.057195466, z: 0.0009261162}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_MainC
+      parentName: respiracion(Clone)
+      position: {x: 0.0018749423, y: -0.081283316, z: 0.003000606}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_NeckBtmClstrG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.00042368373, y: 0.07121402, z: 0.00042671457}
+      rotation: {x: 0.11579387, y: -0.0018243302, z: -0.015647033, w: 0.9931483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_NeckBtmClstr
+      parentName: Personaje:Beefy_NeckBtmClstrG
+      position: {x: 1.9721522e-33, y: 0.0009386879, z: 0.00030799312}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_HeadClstrG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.000582956, y: 0.07626743, z: 0.0035208215}
+      rotation: {x: 0.11579387, y: -0.0018243302, z: -0.015647033, w: 0.9931483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_HeadClstr
+      parentName: Personaje:Beefy_HeadClstrG
+      position: {x: -1.9721522e-33, y: -0.0009386879, z: -0.00030799312}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_ROOTCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0, y: 0.0378307, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_ROOTC
+      parentName: Personaje:Beefy_ROOTCG
+      position: {x: 5.2735593e-18, y: -0.0023622494, z: -2.0816681e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:BeefymidSpineAimLctr
+      parentName: Personaje:Beefy_ROOTC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -3.469447e-18, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:BeefymidSpineTargetLctr
+      parentName: Personaje:Beefy_ROOTC
+      position: {x: 8.485572e-18, y: 0.02973718, z: 0.001201517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_MainHipCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 5.2735593e-18, y: 0.035468448, z: -2.0816681e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_MainHipC
+      parentName: Personaje:Beefy_MainHipCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_spineLengthClstr01
+      parentName: Personaje:Beefy_MainHipC
+      position: {x: -3.9777393e-20, y: 0.0021865575, z: 0.00020958458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_spineBtmTX_Lctr
+      parentName: Personaje:Beefy_MainHipC
+      position: {x: -2.704863e-19, y: 0.01486859, z: 0.0014251752}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Spine01FKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 4.163336e-18, y: 0.042902745, z: 0.0013603437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Spine01FKC
+      parentName: Personaje:Beefy_Spine01FKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_SpineMidIKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 5.003073e-18, y: 0.050337035, z: 0.0014251752}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_SpineMidIKCG2
+      parentName: Personaje:Beefy_SpineMidIKCG
+      position: {x: -0, y: 0, z: 0.004759991}
+      rotation: {x: -3.469447e-18, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_SpineMidIKC
+      parentName: Personaje:Beefy_SpineMidIKCG2
+      position: {x: -0, y: 0, z: -0.004759991}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_spineLengthClstr02
+      parentName: Personaje:Beefy_SpineMidIKC
+      position: {x: 1.2183141e-18, y: 0.000081858634, z: -0.00021496898}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_SpineTopIKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.00023419622, y: 0.06520194, z: 0.001201517}
+      rotation: {x: 0, y: -0, z: -0.015753027, w: 0.99987596}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_SpineTopIKC
+      parentName: Personaje:Beefy_SpineTopIKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.11580824, y: -0, z: -0, w: 0.9932716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_spineLengthClstr03
+      parentName: Personaje:Beefy_SpineTopIKC
+      position: {x: -1.2508654e-18, y: -0.0021240807, z: 0.00003195122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_SpineTopTX_Lctr
+      parentName: Personaje:Beefy_SpineTopIKC
+      position: {x: 0.00023419622, y: -0.014414724, z: 0.0036374494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Spine02FKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 5.003073e-18, y: 0.050337035, z: 0.0014251752}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Spine02FKC
+      parentName: Personaje:Beefy_Spine02FKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Spine03FKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 9.6791745e-18, y: 0.057771333, z: 0.0010777984}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Spine03FKC
+      parentName: Personaje:Beefy_Spine03FKCG
+      position: {x: 2.7755575e-19, y: 3.5527136e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0.015753027, w: 0.99987596}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Spine04FKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.00023419622, y: 0.06520194, z: 0.001201517}
+      rotation: {x: 0, y: -0, z: -0.015753027, w: 0.99987596}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Spine04FKC
+      parentName: Personaje:Beefy_Spine04FKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_ribbonSpineG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.74403614, y: 0.74403614, z: 0.74403614}
+    - name: Personaje:Beefy_spineBtm01JIK
+      parentName: Personaje:Beefy_ribbonSpineG
+      position: {x: 7.087773e-18, y: 0.04767033, z: -2.797805e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99836975, y: 1.0016329, z: 0.99836975}
+    - name: Personaje:Beefy_spineMidJIK
+      parentName: Personaje:Beefy_ribbonSpineG
+      position: {x: 6.724234e-18, y: 0.06765402, z: 0.0019154651}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99836975, y: 1.0016329, z: 0.99836975}
+    - name: Personaje:Beefy_SpineTopJIK
+      parentName: Personaje:Beefy_ribbonSpineG
+      position: {x: 0.0003147646, y: 0.08763276, z: 0.0016148636}
+      rotation: {x: 0.11579387, y: -0.0018243302, z: -0.015647033, w: 0.9931483}
+      scale: {x: 0.99836975, y: 1.0016329, z: 0.99836975}
+    - name: Personaje:Beefy_HeadCG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.000582956, y: 0.07626743, z: 0.0035208215}
+      rotation: {x: 0.11579387, y: -0.0018243302, z: -0.015647033, w: 0.9931483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_HeadCG
+      parentName: Personaje:Beefy_HeadCG2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_HeadC
+      parentName: Personaje:Beefy_HeadCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Neck01CG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.00042368373, y: 0.07121402, z: 0.00042671457}
+      rotation: {x: 0.11579387, y: -0.0018243302, z: -0.015647033, w: 0.9931483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Neck01C
+      parentName: Personaje:Beefy_Neck01CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_NeckLengthAimLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.00042368373, y: 0.07121402, z: 0.00042671457}
+      rotation: {x: 0.2711832, y: 6.9268334e-11, z: -0.013959427, w: 0.96242654}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_NeckLengthTargetLctr
+      parentName: Personaje:Beefy_NeckLengthAimLctr
+      position: {x: -2.7755575e-19, y: 0.005927547, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_NeckUpLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.000460361, y: 0.07237773, z: 0.0077423197}
+      rotation: {x: 0.11579387, y: -0.0018243302, z: -0.015647033, w: 0.9931483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLegSwitchCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.009233132, y: 0.006667336, z: 0.0007471892}
+      rotation: {x: 0.0000000668099, y: -0.0000000072105943, z: -0.000000006211246, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLegSwitchC
+      parentName: Personaje:Beefy_lLegSwitchCG
+      position: {x: -0, y: 0, z: -0.0066061784}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lArmIKHandle
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.029344175, y: 0.03776097, z: 0.001201517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFootIKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.0059243175, y: 1.4244161e-15, z: -0.0012531978}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFootIKC
+      parentName: Personaje:Beefy_lFootIKCG
+      position: {x: -0.003308815, y: 0.006667335, z: 0.0020003875}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeIKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.0059189075, y: 0.01969103, z: 0.0000029340385}
+      rotation: {x: 0.023496846, y: 0.0010498127, z: -0.00012654022, w: 0.9997234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeIKC
+      parentName: Personaje:Beefy_lKneeIKCG
+      position: {x: -0, y: 0, z: 0.013760501}
+      rotation: {x: -0.04418083, y: 0.06455635, z: -0.000073786025, w: 0.99693555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeFKAimLctr
+      parentName: Personaje:Beefy_lKneeIKCG
+      position: {x: 0.00000048113316, y: -0.002359641, z: 0.013871481}
+      rotation: {x: -4.4907134e-13, y: -1.3877788e-17, z: -8.326673e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeIKC_TargetLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.007573315, y: 0.018509906, z: 0.0010031278}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lBallFKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.0059243175, y: -0.0023622494, z: 0.0049123657}
+      rotation: {x: 5.551115e-17, y: 0.7071068, z: -5.551115e-17, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lBallFKC
+      parentName: Personaje:Beefy_lBallFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.33382347, y: 0.33382347, z: 0.33382347}
+    - name: Personaje:Beefy_lAnkleFKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.0059243175, y: 0.0043050856, z: -0.0012531978}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lAnkleFKC
+      parentName: Personaje:Beefy_lAnkleFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeFKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.0059189075, y: 0.01732878, z: 0.0000029339863}
+      rotation: {x: 0.5240566, y: 0.47584262, z: 0.5228452, w: 0.47494355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeFKC
+      parentName: Personaje:Beefy_lKneeFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.33382347, z: 0.33382347}
+    - name: Personaje:Beefy_lHipFKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.0059162527, y: 0.030950524, z: 9.020562e-19}
+      rotation: {x: 0.500378, y: 0.5003881, z: 0.4995141, w: 0.4997192}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lHipFKC
+      parentName: Personaje:Beefy_lHipFKCG
+      position: {x: -0, y: -1.3823578e-18, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lHipFKOrientLctr
+      parentName: Personaje:Beefy_lHipFKCG
+      position: {x: 8.881784e-18, y: -2.4394548e-21, z: -1.110223e-18}
+      rotation: {x: 0.07304462, y: -0.05504623, z: -0.20793085, w: 0.9738579}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lArmSwitchCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.02346199, y: 0.03449349, z: -0.0048015714}
+      rotation: {x: 0.1564723, y: 0.18766484, z: 0.6676506, w: 0.7032361}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lArmSwitchC
+      parentName: Personaje:Beefy_lArmSwitchCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowIKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.032478657, y: 0.066631585, z: 0.0011980773}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowIKC
+      parentName: Personaje:Beefy_lElbowIKCG
+      position: {x: -0, y: 0, z: -0.034922123}
+      rotation: {x: 0.19650418, y: 0.14107691, z: -0.028583135, w: 0.9698796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowFKAimLctr
+      parentName: Personaje:Beefy_lElbowIKCG
+      position: {x: -0.009883022, y: -0.004955362, z: -0.03180756}
+      rotation: {x: 0.32498404, y: 0.13904025, z: 0.6018544, w: 0.71611774}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowIKC_TargetLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.02213165, y: 0.051284447, z: 0.001090376}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristIKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.04982455, y: 0.066631585, z: 0.001201517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristIKC
+      parentName: Personaje:Beefy_lWristIKCG
+      position: {x: 0.020480378, y: -0.028870612, z: 1.687539e-16}
+      rotation: {x: 0.065189466, y: 0.3521515, z: 0.62569356, w: 0.6929987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristFKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.023461988, y: 0.03449349, z: -0.004801572}
+      rotation: {x: 0.22438304, y: 0.2519523, z: 0.6461389, w: 0.68459976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristFKC
+      parentName: Personaje:Beefy_lWristFKCG
+      position: {x: -0, y: -1.0658141e-16, z: -9.103829e-17}
+      rotation: {x: -0.09763193, y: 0, z: -0, w: 0.9952226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristIKLctr
+      parentName: Personaje:Beefy_lWristFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.04097461, y: 0.16475384, z: -0.082015954, w: 0.9820645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowFKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.022804175, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.41713876, y: 0.022609811, z: 0.54206866, w: 0.72914034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowFKC
+      parentName: Personaje:Beefy_lElbowFKCG
+      position: {x: 2.6645352e-17, y: 0, z: 8.881784e-18}
+      rotation: {x: 0, y: 0.31622252, z: -0, w: 0.94868505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lShoulderFKCG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.016402429, y: 0.066631585, z: 0.001201517}
+      rotation: {x: 0.11579387, y: -0.0018243302, z: -0.015647033, w: 0.9931483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lShoulderFKCG
+      parentName: Personaje:Beefy_lShoulderFKCG2
+      position: {x: 0.0002709758, y: -0.0018168688, z: 0.00020816684}
+      rotation: {x: 6.149399e-16, y: -0.00010698038, z: -2.2209982e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lShoulderFKC
+      parentName: Personaje:Beefy_lShoulderFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.3306569, y: 0.09300456, z: 0.5462809, w: 0.7639328}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lShoulderFKOrientLctr
+      parentName: Personaje:Beefy_lShoulderFKCG
+      position: {x: -0, y: 0, z: -1.3877787e-19}
+      rotation: {x: 0.1937521, y: -0.02281464, z: 0.48234326, w: 0.8539817}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lClavicleCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.007575297, y: 0.068802714, z: 0.001994157}
+      rotation: {x: 0.11208861, y: -0.029115133, z: 0.21930741, w: 0.96875834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lClavicleC
+      parentName: Personaje:Beefy_lClavicleCG
+      position: {x: -4.440892e-18, y: -8.881784e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lArmIKFKG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.007575297, y: 0.068802714, z: 0.001994157}
+      rotation: {x: 0.11208861, y: -0.029115133, z: 0.21930741, w: 0.96875834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lShoulderJFK
+      parentName: Personaje:Beefy_lArmIKFKG
+      position: {x: -0.009548136, y: -1.7763568e-17, z: -2.2204459e-17}
+      rotation: {x: 0.34319147, y: 0.0122309765, z: 0.3504776, w: 0.87134117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lShoulderJIK
+      parentName: Personaje:Beefy_lArmIKFKG
+      position: {x: -0.009548136, y: -1.7763568e-17, z: -3.7470024e-18}
+      rotation: {x: 0.18281412, y: -0.06799672, z: 0.26707345, w: 0.9437305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowJIK
+      parentName: Personaje:Beefy_lShoulderJIK
+      position: {x: -0.016076228, y: 0, z: -1.3877787e-19}
+      rotation: {x: 5.735104e-15, y: 0.43636224, z: -1.1516078e-14, w: 0.8997711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristJIK
+      parentName: Personaje:Beefy_lElbowJIK
+      position: {x: -0.017345896, y: 8.881784e-18, z: 0}
+      rotation: {x: 0.021284176, y: 0.077931985, z: 0.113276795, w: 0.9902737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLegIKFKG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 5.2735593e-18, y: 0.035468448, z: -2.0816681e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lHipJFK
+      parentName: Personaje:Beefy_lLegIKFKG
+      position: {x: -0.0059162527, y: -0.004517924, z: -6.999895e-20}
+      rotation: {x: 0.500378, y: 0.5003881, z: 0.49951407, w: 0.49971923}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lHipJIK
+      parentName: Personaje:Beefy_lLegIKFKG
+      position: {x: -0.0059162527, y: -0.004517924, z: -2.7755575e-19}
+      rotation: {x: 0.44720805, y: 0.60030633, z: 0.31849334, w: 0.5815491}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeJIK
+      parentName: Personaje:Beefy_lHipJIK
+      position: {x: -0.013621744, y: -2.017158e-18, z: -9.992007e-18}
+      rotation: {x: 0.0002603428, y: -0.0001256915, z: 0.39630842, w: 0.9181174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lAnkleJIK
+      parentName: Personaje:Beefy_lKneeJIK
+      position: {x: -0.013084132, y: 5.5511148e-18, z: 3.330669e-18}
+      rotation: {x: -0.07208138, y: 0.057558987, z: -0.53745484, w: 0.8382324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lBallJIK
+      parentName: Personaje:Beefy_lAnkleJIK
+      position: {x: -0.009081163, y: 2.220446e-18, z: 0}
+      rotation: {x: -0.000000005830861, y: 0.000000002549813, z: -0.40066206, w: 0.9162259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lToeJIK
+      parentName: Personaje:Beefy_lBallJIK
+      position: {x: -0.0085353125, y: 8.059253e-19, z: 2.320366e-16}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristJG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.022804176, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.22438304, y: 0.2519523, z: 0.6461389, w: 0.68459976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristJG1
+      parentName: Personaje:Beefy_lWristJG2
+      position: {x: -0.017345896, y: 6.661338e-18, z: 0.000003439682}
+      rotation: {x: -0.097631946, y: 0.000000015136967, z: 0.000000034648707, w: 0.9952226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lThumbJ1CG
+      parentName: Personaje:Beefy_lWristJG1
+      position: {x: -0.0038630082, y: -0.00013712491, z: 0.0029295909}
+      rotation: {x: 0.2923009, y: 0.54637676, z: -0.0050330083, w: 0.7848613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lThumbJ1C
+      parentName: Personaje:Beefy_lThumbJ1CG
+      position: {x: 9.860761e-34, y: 6.1629755e-34, z: -1.2325951e-34}
+      rotation: {x: 0.011540976, y: -0.09952442, z: 0.114609756, w: 0.98834527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lThumbJ2CG
+      parentName: Personaje:Beefy_lWristJG1
+      position: {x: -0.0058432054, y: -0.0013681762, z: 0.00505127}
+      rotation: {x: 0.36007148, y: 0.4283374, z: 0.04958158, w: 0.8272951}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lThumbJ2C
+      parentName: Personaje:Beefy_lThumbJ2CG
+      position: {x: -0, y: -4.440892e-18, z: 0}
+      rotation: {x: 0, y: 0, z: 0.36290267, w: 0.93182707}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lThumbJ3CG
+      parentName: Personaje:Beefy_lWristJG1
+      position: {x: -0.007446506, y: -0.0034126258, z: 0.0052181147}
+      rotation: {x: 0.49096912, y: 0.26846552, z: 0.34642908, w: 0.75290275}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lThumbJ3C
+      parentName: Personaje:Beefy_lThumbJ3CG
+      position: {x: -4.440892e-18, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.20767416, w: 0.97819805}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristJ
+      parentName: Personaje:Beefy_lWristJG1
+      position: {x: -0, y: -3.5527136e-17, z: 2.2759572e-17}
+      rotation: {x: 0.003970638, y: -0.2357728, z: -0.0058000647, w: 0.97178286}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lPalmJ
+      parentName: Personaje:Beefy_lWristJ
+      position: {x: -0.0030435834, y: 1.3322676e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger1J1
+      parentName: Personaje:Beefy_lPalmJ
+      position: {x: -0.004598962, y: -3.5527136e-17, z: 0.0023076166}
+      rotation: {x: 0, y: 0, z: 0.21652587, w: 0.9762769}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger1J2
+      parentName: Personaje:Beefy_lFinger1J1
+      position: {x: -0.0026523944, y: -1.5543122e-17, z: -4.440892e-18}
+      rotation: {x: 0, y: 0, z: 0.26061296, w: 0.9654434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger1J3
+      parentName: Personaje:Beefy_lFinger1J2
+      position: {x: -0.002753156, y: 7.771561e-18, z: -1.11022296e-17}
+      rotation: {x: 0, y: 0, z: 0.24579221, w: 0.96932256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger1JTip
+      parentName: Personaje:Beefy_lFinger1J3
+      position: {x: -0.002954679, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger2J1
+      parentName: Personaje:Beefy_lPalmJ
+      position: {x: -0.0045317877, y: -1.0658141e-16, z: -0.0010664412}
+      rotation: {x: 0, y: 0, z: 0.154621, w: 0.98797387}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger2J2
+      parentName: Personaje:Beefy_lFinger2J1
+      position: {x: -0.0027363624, y: -1.3322676e-17, z: -6.661338e-18}
+      rotation: {x: 0, y: 0, z: 0.351292, w: 0.93626595}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger2J3
+      parentName: Personaje:Beefy_lFinger2J2
+      position: {x: -0.002534839, y: 8.881784e-18, z: -6.661338e-18}
+      rotation: {x: 0, y: 0, z: 0.32827795, w: 0.9445812}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger2JTip
+      parentName: Personaje:Beefy_lFinger2J3
+      position: {x: -0.0028539174, y: -3.5527136e-17, z: 5.551115e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lThumbJ1
+      parentName: Personaje:Beefy_lWristJ
+      position: {x: -0.0038630082, y: -0.00013712491, z: 0.0029295909}
+      rotation: {x: 0.1409945, y: 0.28860912, z: 0.09786869, w: 0.941938}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lThumbJ2
+      parentName: Personaje:Beefy_lThumbJ1
+      position: {x: -0.0031524892, y: -2.2204459e-17, z: -5.551115e-17}
+      rotation: {x: -0.5311486, y: 0.39707527, z: -0.05230343, w: 0.74664366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lThumbJ3
+      parentName: Personaje:Beefy_lThumbJ2
+      position: {x: -0.0026034946, y: -3.330669e-17, z: 7.202572e-17}
+      rotation: {x: -0.0000000017408329, y: -0.10147897, z: 0.18119209, w: 0.97819805}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lThumbJTip
+      parentName: Personaje:Beefy_lThumbJ3
+      position: {x: -0.002101798, y: 0, z: 4.4408918e-17}
+      rotation: {x: 0.17854787, y: -0.68419343, z: -0.17854787, w: 0.68419343}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristJFKG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.023461988, y: 0.03449349, z: -0.004801572}
+      rotation: {x: 0.22438304, y: 0.2519523, z: 0.6461389, w: 0.68459976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristJFKG1
+      parentName: Personaje:Beefy_lWristJFKG2
+      position: {x: -8.881784e-18, y: -7.9936054e-17, z: -9.617307e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristJFK
+      parentName: Personaje:Beefy_lWristJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.09763194, y: 0, z: -0, w: 0.9952226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowJFKG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.022804175, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.41719252, y: 0.022537531, z: 0.54202735, w: 0.72914255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowJFKG1
+      parentName: Personaje:Beefy_lElbowJFKG2
+      position: {x: 3.1086245e-17, y: -1.7763568e-17, z: 1.901257e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowJFK
+      parentName: Personaje:Beefy_lElbowJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.31631655, z: -0, w: 0.9486537}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristJIKDummyG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.02513816, y: 0.05316946, z: -0.005563703}
+      rotation: {x: 0.058796618, y: 0.28864676, z: 0.5435, w: 0.78602403}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristJIKDummyG1
+      parentName: Personaje:Beefy_lWristJIKDummyG2
+      position: {x: -0.017345896, y: 0, z: 0.000003439682}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristJIKDummy
+      parentName: Personaje:Beefy_lWristJIKDummyG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.02128445, y: 0.07812593, z: 0.113276735, w: 0.9902584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lPalmCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.023577794, y: 0.031456724, z: -0.0046341503}
+      rotation: {x: 0.1564723, y: 0.18766484, z: 0.6676506, w: 0.7032361}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lPalmC
+      parentName: Personaje:Beefy_lPalmCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger1J1CG
+      parentName: Personaje:Beefy_lPalmC
+      position: {x: -0.004598962, y: -1.7763568e-17, z: 0.0023076166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger1J1C
+      parentName: Personaje:Beefy_lFinger1J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.21652587, w: 0.9762769}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger1J2CG
+      parentName: Personaje:Beefy_lPalmC
+      position: {x: -0.00700265, y: -0.0011213751, z: 0.0023076166}
+      rotation: {x: 0, y: 0, z: 0.21652587, w: 0.9762769}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger1J2C
+      parentName: Personaje:Beefy_lFinger1J2CG
+      position: {x: 1.11022296e-17, y: -1.110223e-18, z: 0}
+      rotation: {x: 0, y: 0, z: 0.260613, w: 0.9654434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger1J3CG
+      parentName: Personaje:Beefy_lPalmC
+      position: {x: -0.008573006, y: -0.0033827575, z: 0.0023076166}
+      rotation: {x: 0, y: 0, z: 0.46347392, w: 0.8861106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger1J3C
+      parentName: Personaje:Beefy_lFinger1J3CG
+      position: {x: -8.881784e-18, y: -3.330669e-18, z: 0}
+      rotation: {x: 0, y: 0, z: 0.24579221, w: 0.96932256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger2J1CG
+      parentName: Personaje:Beefy_lPalmC
+      position: {x: -0.0045317877, y: -8.437695e-17, z: -0.0010664412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger2J1C
+      parentName: Personaje:Beefy_lFinger2J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.154621, w: 0.98797387}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger2J2CG
+      parentName: Personaje:Beefy_lPalmC
+      position: {x: -0.00713731, y: -0.00083602173, z: -0.0010664412}
+      rotation: {x: 0, y: 0, z: 0.154621, w: 0.98797387}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger2J2C
+      parentName: Personaje:Beefy_lFinger2J2CG
+      position: {x: 1.3322676e-17, y: -1.110223e-18, z: 0}
+      rotation: {x: 0, y: 0, z: 0.351292, w: 0.93626595}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger2J3CG
+      parentName: Personaje:Beefy_lPalmC
+      position: {x: -0.008445792, y: -0.003007032, z: -0.0010664412}
+      rotation: {x: 0, y: 0, z: 0.49183372, w: 0.87068915}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFinger2J3C
+      parentName: Personaje:Beefy_lFinger2J3CG
+      position: {x: -4.440892e-18, y: 8.881784e-18, z: 0}
+      rotation: {x: 0, y: 0, z: 0.32827795, w: 0.9445812}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lArmLengthOriginLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.016188797, y: 0.06480792, z: 0.0009861146}
+      rotation: {x: -1.360263e-10, y: 0.0042238566, z: 0.5303677, w: 0.8477572}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lArmLengthEndLctr
+      parentName: Personaje:Beefy_lArmLengthOriginLctr
+      position: {x: -0.030077366, y: 0, z: -2.7755575e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lAnkleJFKG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.0059189075, y: 0.01732878, z: 0.0000029339863}
+      rotation: {x: -7.521761e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lAnkleJFKG1
+      parentName: Personaje:Beefy_lAnkleJFKG2
+      position: {x: -0.000005410297, y: -0.013023694, z: -0.0012561318}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lAnkleJFK
+      parentName: Personaje:Beefy_lAnkleJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.2833109, y: 0.6478696, z: 0.2833109, w: 0.6478696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lBallJFK
+      parentName: Personaje:Beefy_lAnkleJFK
+      position: {x: -0.009081163, y: -2.7755575e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0.40066206, w: 0.9162259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lToeJFK
+      parentName: Personaje:Beefy_lBallJFK
+      position: {x: -0.0085353125, y: 8.059253e-19, z: 2.320366e-16}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeJFKG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.0059162527, y: 0.030950524, z: -2.7845252e-19}
+      rotation: {x: -2.070566e-14, y: 4.996004e-16, z: 6.1062266e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeJFKG1
+      parentName: Personaje:Beefy_lKneeJFKG2
+      position: {x: -0.0000026547234, y: -0.013621744, z: 0.0000029339863}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeJFK
+      parentName: Personaje:Beefy_lKneeJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5240518, y: 0.47583726, z: 0.52285004, w: 0.4749489}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLegLengthOriginLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.0059162527, y: 0.030950524, z: -4.857226e-19}
+      rotation: {x: 0.21923047, y: 3.79172e-11, z: 0.97319466, w: 0.06949901}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLegLengthEndLctr
+      parentName: Personaje:Beefy_lLegLengthOriginLctr
+      position: {x: 3.330669e-18, y: 0.024520058, z: -2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristFKLctrG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.04982455, y: 0.066631585, z: 0.001201517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristFKLctr
+      parentName: Personaje:Beefy_lWristFKLctrG
+      position: {x: 0.026362564, y: -0.03213809, z: -0.006003089}
+      rotation: {x: 0.1564723, y: 0.18766484, z: 0.6676506, w: 0.7032361}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lAnkleFKLctrG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.0059243175, y: 0.006667335, z: -0.0012531978}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lAnkleFKLctr
+      parentName: Personaje:Beefy_lAnkleFKLctrG
+      position: {x: 4.440892e-18, y: -0.0023622494, z: 0}
+      rotation: {x: 1.6653345e-16, y: -5.551115e-17, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lToeIKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.009179715, y: 0.0037364294, z: 0.017636452}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lToeIKC
+      parentName: Personaje:Beefy_lToeIKCG
+      position: {x: -0.000053418535, y: -0.0037364294, z: -0.002188387}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lBallSwivel
+      parentName: Personaje:Beefy_lToeIKC
+      position: {x: -0, y: -1.2797651e-18, z: -0.0085353125}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFootInTilt
+      parentName: Personaje:Beefy_lBallSwivel
+      position: {x: 0.0033463966, y: -1.4244161e-15, z: -1.5465406e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFootOutTilt
+      parentName: Personaje:Beefy_lFootInTilt
+      position: {x: -0.008505168, y: 0, z: -3.330669e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFootHeelPivot
+      parentName: Personaje:Beefy_lFootOutTilt
+      position: {x: 0.0051587718, y: 0, z: -0.009486437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFootBallPivot
+      parentName: Personaje:Beefy_lFootHeelPivot
+      position: {x: 2.3314683e-17, y: 1.4244161e-15, z: 0.009486437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lBallIKHandle
+      parentName: Personaje:Beefy_lFootBallPivot
+      position: {x: 1.3877788e-17, y: 7.206299e-18, z: -3.0357006e-17}
+      rotation: {x: 0.2833109, y: 0.6478696, z: 0.2833109, w: 0.6478696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLegIKHandle
+      parentName: Personaje:Beefy_lFootBallPivot
+      position: {x: -3.330669e-18, y: 0.006667335, z: -0.006165563}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeTargetLockLctr
+      parentName: Personaje:Beefy_lFootBallPivot
+      position: {x: -1.4432899e-17, y: 0.006667335, z: -0.006165563}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lFootToePivot
+      parentName: Personaje:Beefy_lFootHeelPivot
+      position: {x: 2.3314683e-17, y: 1.4244161e-15, z: 0.009486437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lToeIKHandle
+      parentName: Personaje:Beefy_lFootToePivot
+      position: {x: 5.1847416e-16, y: -1.4709129e-17, z: 0.0085353125}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lShoulderIKLockLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.016188797, y: 0.06480792, z: 0.0009861146}
+      rotation: {x: 0.000000002409176, y: -0.5357448, z: -0.028147863, w: 0.8439107}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowIKLockLctr
+      parentName: Personaje:Beefy_lShoulderIKLockLctr
+      position: {x: -0.038385943, y: -8.881784e-18, z: 0}
+      rotation: {x: -0.000000009988184, y: 0.3511977, z: 0.86835766, w: 0.35016462}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristIKLockLctr
+      parentName: Personaje:Beefy_lElbowIKLockLctr
+      position: {x: -0.045421712, y: 1.110223e-18, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lHipIKLockLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.0059162527, y: 0.030950524, z: -4.857226e-19}
+      rotation: {x: 0.000000016960577, y: 0.5349128, z: 0.4632355, w: 0.7065983}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeIKLockLctr
+      parentName: Personaje:Beefy_lHipIKLockLctr
+      position: {x: -0.018186979, y: 0, z: 2.220446e-18}
+      rotation: {x: 0.000000009877929, y: -0.5788713, z: 0.4607432, w: 0.6727732}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lAnkleIKLockLctr
+      parentName: Personaje:Beefy_lKneeIKLockLctr
+      position: {x: -0.018259183, y: 2.220446e-18, z: -1.110223e-18}
+      rotation: {x: 0.156604, y: 0.2177369, z: 0.07861954, w: 0.96014833}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lAnkleIKLctrG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0.0059243175, y: 0.004305091, z: -0.0012531974}
+      rotation: {x: 1.6653345e-16, y: -5.551115e-17, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lAnkleIKLctr
+      parentName: Personaje:Beefy_lAnkleIKLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLegSwitchCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.009383119, y: 0.006667336, z: -0.0012531978}
+      rotation: {x: -0.0000000063696772, y: 1, z: 0.00000005302073, w: -2.764926e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLegSwitchC
+      parentName: Personaje:Beefy_rLegSwitchCG
+      position: {x: -0, y: 0, z: 0.0066061784}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rArmIKHandle
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.021855459, y: 0.034883495, z: 0.001201517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFootIKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.0059243175, y: 1.7874591e-16, z: -0.0012531978}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFootIKC
+      parentName: Personaje:Beefy_rFootIKCG
+      position: {x: 0.0034588014, y: -0.006667335, z: -8.3266725e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeIKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.0059189075, y: 0.01969103, z: 0.0000029340385}
+      rotation: {x: 0.023496846, y: -0.0010498127, z: 0.00012654022, w: 0.9997234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeIKC
+      parentName: Personaje:Beefy_rKneeIKCG
+      position: {x: -0, y: 2.220446e-18, z: 0.013760501}
+      rotation: {x: -0.042690277, y: -0.06251777, z: 0.00016203917, w: 0.9971304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeFKAimLctr
+      parentName: Personaje:Beefy_rKneeIKCG
+      position: {x: -0.00000048113316, y: -0.002359641, z: 0.013871481}
+      rotation: {x: 1.6544682e-12, y: 1.9428903e-16, z: 6.9388946e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeIKC_TargetLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.0076483083, y: 0.018509906, z: 0.0000029340206}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rBallFKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.0059243175, y: -0.0023622494, z: 0.0049123657}
+      rotation: {x: 0.7071068, y: 4.3297806e-17, z: 0.7071068, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rBallFKC
+      parentName: Personaje:Beefy_rBallFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -0.33382347, y: -0.33382347, z: -0.33382347}
+    - name: Personaje:Beefy_rAnkleFKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.0059243175, y: 0.0043050856, z: -0.0012531978}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rAnkleFKC
+      parentName: Personaje:Beefy_rAnkleFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeFKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.0059189075, y: 0.01732878, z: 0.0000029339863}
+      rotation: {x: -0.47494355, y: 0.5228452, z: -0.47584262, w: 0.5240566}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeFKC
+      parentName: Personaje:Beefy_rKneeFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: -0.33382347, z: -0.33382347}
+    - name: Personaje:Beefy_rHipFKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.0059162527, y: 0.030950524, z: 6.4531714e-18}
+      rotation: {x: -0.49970078, y: 0.4994957, z: -0.5004065, w: 0.5003964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rHipFKC
+      parentName: Personaje:Beefy_rHipFKCG
+      position: {x: -0, y: 6.823155e-18, z: 3.330669e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rHipFKOrientLctr
+      parentName: Personaje:Beefy_rHipFKCG
+      position: {x: -8.881784e-18, y: -8.131516e-22, z: 0}
+      rotation: {x: 0.06874167, y: -0.056603562, z: -0.16615748, w: 0.98207045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rArmSwitchCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.019712107, y: 0.032822784, z: -0.003051873}
+      rotation: {x: -0.67907304, y: 0.6888546, z: -0.23119162, w: 0.10435357}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rArmSwitchC
+      parentName: Personaje:Beefy_rArmSwitchCG
+      position: {x: -0, y: 0, z: -1.3877787e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowIKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.032478657, y: 0.066631585, z: 0.0011980772}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowIKC
+      parentName: Personaje:Beefy_rElbowIKCG
+      position: {x: -0, y: 0, z: -0.031922124}
+      rotation: {x: 0.2243151, y: -0.19888479, z: 0.046820126, w: 0.9528565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowFKAimLctr
+      parentName: Personaje:Beefy_rElbowIKCG
+      position: {x: 0.0016556289, y: -0.011541513, z: -0.03346663}
+      rotation: {x: 0.22349085, y: -0.108573355, z: -0.6598955, w: 0.70908505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowIKC_TargetLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.018592786, y: 0.049328998, z: 0.0010903762}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristIKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.04982455, y: 0.066631585, z: 0.001201517}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristIKC
+      parentName: Personaje:Beefy_rWristIKCG
+      position: {x: -0.027969092, y: 0.031748086, z: 3.7492416e-18}
+      rotation: {x: 0, y: 0, z: 0.6410614, w: 0.7674897}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristFKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.019712104, y: 0.032822784, z: -0.0030518733}
+      rotation: {x: -0.6790731, y: 0.6888546, z: -0.23119166, w: 0.10435355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristFKC
+      parentName: Personaje:Beefy_rWristFKCG
+      position: {x: -0, y: 0, z: -1.3877787e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristIKLctr
+      parentName: Personaje:Beefy_rWristFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.22829832, y: -0.110540114, z: -0.093361184, w: 0.9627796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowFKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: 0.7171396, y: -0.61053395, z: -0.01733609, w: -0.3356465}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowFKC
+      parentName: Personaje:Beefy_rElbowFKCG
+      position: {x: -2.2204459e-17, y: 0, z: 4.4964033e-17}
+      rotation: {x: 0, y: 0.3451624, z: -0, w: 0.93854296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rShoulderFKCG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.016402429, y: 0.066631585, z: 0.001201517}
+      rotation: {x: 0.11579387, y: -0.0018243302, z: -0.015647033, w: 0.9931483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rShoulderFKCG
+      parentName: Personaje:Beefy_rShoulderFKCG2
+      position: {x: 0.00028725743, y: -0.0028225754, z: 0.0004459141}
+      rotation: {x: 1, y: 2.7787257e-17, z: -0.00010698038, w: -6.1229365e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rShoulderFKC
+      parentName: Personaje:Beefy_rShoulderFKCG
+      position: {x: -1.774937e-32, y: 5.1275957e-32, z: -6.4094946e-33}
+      rotation: {x: 0.24910843, y: 0.046843182, z: 0.5976715, w: 0.7606179}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rShoulderFKOrientLctr
+      parentName: Personaje:Beefy_rShoulderFKCG
+      position: {x: 4.440892e-18, y: -8.881784e-18, z: -1.3877787e-19}
+      rotation: {x: 0.23841877, y: 0.013613493, z: 0.5462516, w: 0.80285764}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rClavicleCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.008254941, y: 0.068303786, z: 0.001994157}
+      rotation: {x: 0.96136886, y: -0.24971654, z: -0.025569644, w: -0.1129502}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rClavicleC
+      parentName: Personaje:Beefy_rClavicleCG
+      position: {x: 1.3322676e-17, y: 4.4408918e-17, z: 1.3877787e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rArmIKFKG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.008254941, y: 0.068303786, z: 0.001994157}
+      rotation: {x: 0.96136886, y: -0.24971654, z: -0.025569677, w: -0.112950064}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rShoulderJFK
+      parentName: Personaje:Beefy_rArmIKFKG
+      position: {x: 0.009548136, y: -4.4408918e-17, z: -4.440892e-18}
+      rotation: {x: 0.25304374, y: -0.013367387, z: 0.4011903, w: 0.880248}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rShoulderJIK
+      parentName: Personaje:Beefy_rArmIKFKG
+      position: {x: 0.009548136, y: -8.881784e-18, z: -5.412337e-18}
+      rotation: {x: 0.23481415, y: -0.043138925, z: 0.34125027, w: 0.9091478}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowJIK
+      parentName: Personaje:Beefy_rShoulderJIK
+      position: {x: 0.016076228, y: 1.7763568e-17, z: 1.3877787e-19}
+      rotation: {x: 2.136241e-14, y: 0.47783372, z: -3.9026027e-14, w: 0.87845033}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristJIK
+      parentName: Personaje:Beefy_rElbowJIK
+      position: {x: 0.017345896, y: -8.881784e-18, z: 1.3877787e-19}
+      rotation: {x: -0.22686319, y: -0.233434, z: -0.05386072, w: 0.9440025}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLegIKFKG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 5.2735593e-18, y: 0.035468448, z: -2.0816681e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rHipJFK
+      parentName: Personaje:Beefy_rLegIKFKG
+      position: {x: 0.0059162527, y: -0.004517924, z: 5.0929795e-20}
+      rotation: {x: -0.4997008, y: 0.49949563, z: -0.50040644, w: 0.50039643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rHipJIK
+      parentName: Personaje:Beefy_rLegIKFKG
+      position: {x: 0.0059162527, y: -0.004517924, z: -1.561251e-19}
+      rotation: {x: 0.56769925, y: -0.34482566, z: 0.58060485, w: -0.4708618}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeJIK
+      parentName: Personaje:Beefy_rHipJIK
+      position: {x: 0.013621744, y: 2.9159616e-18, z: -2.220446e-18}
+      rotation: {x: 0.00022690851, y: -0.00011017011, z: 0.39270008, w: 0.9196666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rAnkleJIK
+      parentName: Personaje:Beefy_rKneeJIK
+      position: {x: 0.013084132, y: 6.383782e-18, z: 0}
+      rotation: {x: -0.067962654, y: 0.058712527, z: -0.5697105, w: 0.81692344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rBallJIK
+      parentName: Personaje:Beefy_rAnkleJIK
+      position: {x: 0.009081163, y: 2.7755574e-18, z: -1.110223e-18}
+      rotation: {x: -0.000000007000769, y: 0.0000000030614093, z: -0.40066206, w: 0.9162259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rToeJIK
+      parentName: Personaje:Beefy_rBallJIK
+      position: {x: 0.0085353125, y: 8.059253e-19, z: 3.430589e-16}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristJG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: 0.10435357, y: -0.23119162, z: -0.6888546, w: 0.67907304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristJG1
+      parentName: Personaje:Beefy_rWristJG2
+      position: {x: 0.017345896, y: 6.661338e-18, z: 0.000003439682}
+      rotation: {x: 1, y: -0.000000016303575, z: 9.983061e-25, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rThumbJ1CG
+      parentName: Personaje:Beefy_rWristJG1
+      position: {x: 0.0038630082, y: 0.00013712491, z: -0.0029295909}
+      rotation: {x: 0.2923009, y: 0.54637676, z: -0.0050330083, w: 0.7848613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rThumbJ1C
+      parentName: Personaje:Beefy_rThumbJ1CG
+      position: {x: 1.9721522e-33, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.15582286, w: 0.98778504}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rThumbJ2CG
+      parentName: Personaje:Beefy_rWristJG1
+      position: {x: 0.005389093, y: 0.0018760532, z: -0.0050709415}
+      rotation: {x: 0.37386847, y: 0.49415565, z: 0.11732776, w: 0.7760585}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rThumbJ2C
+      parentName: Personaje:Beefy_rThumbJ2CG
+      position: {x: 1.110223e-18, y: 5.551115e-19, z: 8.881784e-18}
+      rotation: {x: 0, y: 0, z: 0.21749577, w: 0.9760613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rThumbJ3CG
+      parentName: Personaje:Beefy_rWristJG1
+      position: {x: 0.0067373193, y: 0.0039422233, z: -0.0059024543}
+      rotation: {x: 0.47239524, y: 0.40101138, z: 0.28330857, w: 0.7319623}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rThumbJ3C
+      parentName: Personaje:Beefy_rThumbJ3CG
+      position: {x: 9.992007e-18, y: -1.110223e-18, z: 0}
+      rotation: {x: 0, y: 0, z: 0.14832897, w: 0.9889381}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristJ
+      parentName: Personaje:Beefy_rWristJG1
+      position: {x: -3.5527136e-17, y: -8.881784e-18, z: 2.9698464e-17}
+      rotation: {x: -0.0014551034, y: -0.3100384, z: -0.016430743, w: 0.95058095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rPalmJ
+      parentName: Personaje:Beefy_rWristJ
+      position: {x: 0.0030435834, y: -1.3322676e-17, z: -1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger1J1
+      parentName: Personaje:Beefy_rPalmJ
+      position: {x: 0.004598962, y: 2.4424906e-17, z: -0.0023076166}
+      rotation: {x: 0.98125273, y: 0.1927254, z: 1.1801028e-17, w: 6.00844e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger1J2
+      parentName: Personaje:Beefy_rFinger1J1
+      position: {x: 0.0026523944, y: 1.11022296e-17, z: -5.5511148e-18}
+      rotation: {x: 3.4765063e-25, y: 2.888764e-17, z: -0.23588543, w: 0.9717809}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger1J3
+      parentName: Personaje:Beefy_rFinger1J2
+      position: {x: 0.002753156, y: -6.883383e-17, z: -4.440892e-18}
+      rotation: {x: -4.0582472e-26, y: 1.20925716e-17, z: -0.09874334, w: 0.99511296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger1JTip
+      parentName: Personaje:Beefy_rFinger1J3
+      position: {x: 0.002954679, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger2J1
+      parentName: Personaje:Beefy_rPalmJ
+      position: {x: 0.0045317877, y: 9.992007e-17, z: 0.0010664412}
+      rotation: {x: 0.97835696, y: 0.2069242, z: 1.2670454e-17, w: 5.990709e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger2J2
+      parentName: Personaje:Beefy_rFinger2J1
+      position: {x: 0.0027363624, y: 7.771561e-18, z: -8.881784e-18}
+      rotation: {x: 1.1804306e-25, y: 1.5012367e-17, z: -0.122585274, w: 0.992458}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger2J3
+      parentName: Personaje:Beefy_rFinger2J2
+      position: {x: 0.002534839, y: -4.57967e-17, z: 1.110223e-18}
+      rotation: {x: -2.5017104e-25, y: 1.8060076e-17, z: -0.1474717, w: 0.9890663}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger2JTip
+      parentName: Personaje:Beefy_rFinger2J3
+      position: {x: 0.0028539174, y: -3.5527136e-17, z: 5.551115e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rThumbJ1
+      parentName: Personaje:Beefy_rWristJ
+      position: {x: 0.0038630082, y: 0.00013712491, z: -0.0029295909}
+      rotation: {x: 0.27482113, y: -0.16435368, z: 0.941184, w: -0.10786096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rThumbJ2
+      parentName: Personaje:Beefy_rThumbJ1
+      position: {x: -0.0031524892, y: -2.220446e-18, z: -4.440892e-18}
+      rotation: {x: 0.31214902, y: -0.49179694, z: -0.15258189, w: 0.7983843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rThumbJ3
+      parentName: Personaje:Beefy_rThumbJ2
+      position: {x: -0.0026034946, y: 1.110223e-18, z: -5.551115e-17}
+      rotation: {x: 0.0000000010938784, y: 0.07248023, z: 0.12941445, w: 0.9889381}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rThumbJTip
+      parentName: Personaje:Beefy_rThumbJ3
+      position: {x: -0.002101798, y: -2.6645352e-17, z: -8.881784e-18}
+      rotation: {x: -0.17854787, y: -0.68419343, z: 0.17854787, w: 0.68419343}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristJFKG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.019712104, y: 0.032822784, z: -0.0030518733}
+      rotation: {x: 0.10435357, y: -0.23119162, z: -0.6888546, w: 0.67907304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristJFKG1
+      parentName: Personaje:Beefy_rWristJFKG2
+      position: {x: -1.7763568e-17, y: 1.7763568e-17, z: 4.8572257e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristJFK
+      parentName: Personaje:Beefy_rWristJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowJFKG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: 0.335707, y: 0.017407227, z: -0.61050063, w: 0.71713793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowJFKG1
+      parentName: Personaje:Beefy_rElbowJFKG2
+      position: {x: -4.440892e-18, y: -3.5527136e-17, z: -5.2458038e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowJFK
+      parentName: Personaje:Beefy_rElbowJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.93850875, y: -3.8230795e-16, z: 0.34525543, w: 9.095229e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristJIKDummyG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.022664336, y: 0.05063557, z: -0.0060163746}
+      rotation: {x: 0.024588242, y: -0.32444954, z: -0.64653003, w: 0.6900194}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristJIKDummyG1
+      parentName: Personaje:Beefy_rWristJIKDummyG2
+      position: {x: 0.017345896, y: 1.7763568e-17, z: 0.000003439682}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristJIKDummy
+      parentName: Personaje:Beefy_rWristJIKDummyG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.9440482, y: 0.053860184, z: -0.23324908, w: 0.22686334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rPalmCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.019541847, y: 0.029828455, z: -0.0025337848}
+      rotation: {x: -0.67907304, y: 0.6888546, z: -0.23119162, w: 0.10435357}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rPalmC
+      parentName: Personaje:Beefy_rPalmCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger1J1CG
+      parentName: Personaje:Beefy_rPalmC
+      position: {x: 0.004598962, y: 0, z: -0.0023076166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger1J1C
+      parentName: Personaje:Beefy_rFinger1J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.1927254, w: 0.98125273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger1J2CG
+      parentName: Personaje:Beefy_rPalmC
+      position: {x: 0.007054324, y: 0.0010031986, z: -0.0023076166}
+      rotation: {x: 0, y: 0, z: 0.1927254, w: 0.98125273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger1J2C
+      parentName: Personaje:Beefy_rFinger1J2CG
+      position: {x: -2.6645352e-17, y: -8.881784e-18, z: 0}
+      rotation: {x: 0, y: 0, z: 0.23588543, w: 0.9717809}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger1J3CG
+      parentName: Personaje:Beefy_rPalmC
+      position: {x: 0.008841934, y: 0.0030970715, z: -0.0023076166}
+      rotation: {x: 0, y: 0, z: 0.4187501, w: 0.9081015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger1J3C
+      parentName: Personaje:Beefy_rFinger1J3CG
+      position: {x: -0, y: 8.8817837e-17, z: 0}
+      rotation: {x: 0, y: 0, z: 0.09874334, w: 0.99511296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger2J1CG
+      parentName: Personaje:Beefy_rPalmC
+      position: {x: 0.0045317877, y: 7.3274716e-17, z: 0.0010664412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger2J1C
+      parentName: Personaje:Beefy_rFinger2J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.2069242, w: 0.97835696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger2J2CG
+      parentName: Personaje:Beefy_rPalmC
+      position: {x: 0.007033825, y: 0.0011079311, z: 0.0010664412}
+      rotation: {x: 0, y: 0, z: 0.2069242, w: 0.97835696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger2J2C
+      parentName: Personaje:Beefy_rFinger2J2CG
+      position: {x: -6.217249e-17, y: -8.881784e-18, z: 0}
+      rotation: {x: 0, y: 0, z: 0.122585274, w: 0.992458}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger2J3CG
+      parentName: Personaje:Beefy_rPalmC
+      position: {x: 0.009032202, y: 0.0026673793, z: 0.0010664412}
+      rotation: {x: 0, y: 0, z: 0.32529578, w: 0.9456124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFinger2J3C
+      parentName: Personaje:Beefy_rFinger2J3CG
+      position: {x: -3.5527136e-17, y: 4.4408918e-17, z: 0}
+      rotation: {x: 0, y: 0, z: 0.1474717, w: 0.9890663}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rArmLengthOriginLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.01659978, y: 0.0637745, z: 0.0009861146}
+      rotation: {x: -1.001819e-10, y: 0.0057241702, z: 0.76775855, w: 0.6407137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rArmLengthEndLctr
+      parentName: Personaje:Beefy_rArmLengthOriginLctr
+      position: {x: -0.029365942, y: 4.440892e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rAnkleJFKG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.0059189075, y: 0.01732878, z: 0.0000029339863}
+      rotation: {x: 7.743806e-15, y: 8.326673e-17, z: 8.326673e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rAnkleJFKG1
+      parentName: Personaje:Beefy_rAnkleJFKG2
+      position: {x: 0.000005410297, y: -0.013023694, z: -0.0012561318}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rAnkleJFK
+      parentName: Personaje:Beefy_rAnkleJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.6478696, y: -0.2833109, z: 0.6478696, w: -0.2833109}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rBallJFK
+      parentName: Personaje:Beefy_rAnkleJFK
+      position: {x: 0.009081163, y: 2.7755575e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0.40066206, w: 0.9162259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rToeJFK
+      parentName: Personaje:Beefy_rBallJFK
+      position: {x: 0.0085353125, y: 8.059253e-19, z: 3.430589e-16}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeJFKG2
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.0059162527, y: 0.030950524, z: -1.5887717e-19}
+      rotation: {x: -3.6748382e-14, y: -1.6653345e-16, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeJFKG1
+      parentName: Personaje:Beefy_rKneeJFKG2
+      position: {x: 0.0000026547234, y: -0.013621744, z: 0.0000029339863}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeJFK
+      parentName: Personaje:Beefy_rKneeJFKG1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.4749489, y: 0.52285004, z: -0.47583726, w: 0.5240518}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLegLengthOriginLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.0059162527, y: 0.030950524, z: -3.6429192e-19}
+      rotation: {x: 0.33898607, y: 0.000000003286202, z: 0.93777645, w: -0.07525832}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLegLengthEndLctr
+      parentName: Personaje:Beefy_rLegLengthOriginLctr
+      position: {x: -1.5543122e-17, y: 0.024561413, z: 6.661338e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristFKLctrG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.04982455, y: 0.066631585, z: 0.001201517}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristFKLctr
+      parentName: Personaje:Beefy_rWristFKLctrG
+      position: {x: -0.030112447, y: 0.0338088, z: 0.0042533902}
+      rotation: {x: 0.10435357, y: 0.23119162, z: 0.6888546, w: 0.67907304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rAnkleFKLctrG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.0059243175, y: 0.006667335, z: -0.0012531978}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rAnkleFKLctr
+      parentName: Personaje:Beefy_rAnkleFKLctrG
+      position: {x: 7.771561e-18, y: 0.0023622494, z: -5.5511148e-18}
+      rotation: {x: 3.8857806e-16, y: -2.751e-40, z: -8.326673e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rToeIKCG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.009383119, y: 1.7874591e-16, z: -0.0012531978}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rToeIKC
+      parentName: Personaje:Beefy_rToeIKCG
+      position: {x: -1.8129942e-15, y: 4.5014834e-18, z: -0.014700877}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rBallSwivel
+      parentName: Personaje:Beefy_rToeIKC
+      position: {x: -0, y: -3.7464098e-18, z: 0.0085353125}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFootInTilt
+      parentName: Personaje:Beefy_rBallSwivel
+      position: {x: -0.0033463966, y: 1.7874591e-16, z: 1.8651746e-16}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFootOutTilt
+      parentName: Personaje:Beefy_rFootInTilt
+      position: {x: 0.008505168, y: 0, z: -1.6653345e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFootHeelPivot
+      parentName: Personaje:Beefy_rFootOutTilt
+      position: {x: -0.0051587718, y: 0, z: -0.009486437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFootBallPivot
+      parentName: Personaje:Beefy_rFootHeelPivot
+      position: {x: 6.661338e-18, y: 1.7874591e-16, z: 0.009486437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rBallIKHandle
+      parentName: Personaje:Beefy_rFootBallPivot
+      position: {x: 2.220446e-18, y: -2.220446e-18, z: -3.330669e-18}
+      rotation: {x: 0.6478696, y: -0.2833109, z: 0.6478696, w: -0.2833109}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLegIKHandle
+      parentName: Personaje:Beefy_rFootBallPivot
+      position: {x: -3.330669e-18, y: 0.006667335, z: -0.006165563}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeTargetLockLctr
+      parentName: Personaje:Beefy_rFootBallPivot
+      position: {x: -3.330669e-18, y: 0.006667335, z: -0.006165563}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rFootToePivot
+      parentName: Personaje:Beefy_rFootHeelPivot
+      position: {x: 6.661338e-18, y: 1.7874591e-16, z: 0.009486437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rToeIKHandle
+      parentName: Personaje:Beefy_rFootToePivot
+      position: {x: -1.811884e-15, y: -8.238227e-18, z: 0.0085353125}
+      rotation: {x: 0.7071068, y: 8.2944183e-14, z: 0.7071068, w: -8.2944183e-14}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rShoulderIKLockLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.01659978, y: 0.0637745, z: 0.0009861146}
+      rotation: {x: -0.00000006379551, y: -0.8469527, z: -0.07631044, w: 0.52616334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowIKLockLctr
+      parentName: Personaje:Beefy_rShoulderIKLockLctr
+      position: {x: -0.03557859, y: 0, z: 1.3322676e-17}
+      rotation: {x: 1.3857035e-10, y: -0.2729076, z: 0.901036, w: 0.33712834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristIKLockLctr
+      parentName: Personaje:Beefy_rElbowIKLockLctr
+      position: {x: -0.04626051, y: 3.330669e-18, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rHipIKLockLctr
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.0059162527, y: 0.030950524, z: -3.6429192e-19}
+      rotation: {x: 0.000000010106709, y: 0.53414434, z: 0.46256998, w: 0.7076149}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeIKLockLctr
+      parentName: Personaje:Beefy_rHipIKLockLctr
+      position: {x: -0.018186979, y: -4.440892e-18, z: 2.220446e-18}
+      rotation: {x: -0.000000015735711, y: -0.38816428, z: 0.6567932, w: 0.6464916}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rAnkleIKLockLctr
+      parentName: Personaje:Beefy_rKneeIKLockLctr
+      position: {x: -0.019759523, y: 1.3322676e-17, z: 8.881784e-18}
+      rotation: {x: -0.2465758, y: -0.0637522, z: -0.23581158, w: 0.93783206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rAnkleIKLctrG
+      parentName: Personaje:Beefy_MainC
+      position: {x: 0.0059243175, y: 0.004305091, z: -0.0012531974}
+      rotation: {x: 1, y: 1.110223e-16, z: 2.7755576e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rAnkleIKLctr
+      parentName: Personaje:Beefy_rAnkleIKLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:BeefyExtraNodes
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_spineLengthC
+      parentName: Personaje:BeefyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_hairSystemFollicles
+      parentName: Personaje:BeefyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_spine01F
+      parentName: Personaje:Beefy_hairSystemFollicles
+      position: {x: -0.00000022747743, y: 0.04290353, z: 0.0006974721}
+      rotation: {x: 0.063638784, y: -0.000002091373, z: -0.000032796568, w: 0.997973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_spine02F
+      parentName: Personaje:Beefy_hairSystemFollicles
+      position: {x: -0.000004231484, y: 0.050354414, z: 0.0011672182}
+      rotation: {x: -0.0069346996, y: 0.00000725384, z: -0.0010459952, w: 0.99997544}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_spine03F
+      parentName: Personaje:Beefy_hairSystemFollicles
+      position: {x: 0.000026549355, y: 0.057851315, z: 0.0006179816}
+      rotation: {x: -0.04381977, y: 0.0003496617, z: -0.007971623, w: 0.9990076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_ribbonBlend
+      parentName: Personaje:BeefyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_ribbonBlend_lClusterG
+      parentName: Personaje:BeefyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_ribbonBlend_lTopCluster
+      parentName: Personaje:Beefy_ribbonBlend_lClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_ribbonBlend_lBtmCluster
+      parentName: Personaje:Beefy_ribbonBlend_lClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_ribbonBlend_rClusterG
+      parentName: Personaje:BeefyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_ribbonBlend_rTopCluster
+      parentName: Personaje:Beefy_ribbonBlend_rClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_ribbonBlend_rBtmCluster
+      parentName: Personaje:Beefy_ribbonBlend_rClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_NeckCurve
+      parentName: Personaje:BeefyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Neck02CG
+      parentName: Personaje:BeefyExtraNodes
+      position: {x: 0.00050331984, y: 0.07374072, z: 0.001973768}
+      rotation: {x: 0.27111867, y: -0.004271472, z: -0.015162872, w: 0.962417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Neck02C
+      parentName: Personaje:Beefy_Neck02CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_extraCurveNodesG
+      parentName: Personaje:BeefyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmCurve
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmCurve
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmCurveGuide
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmCurveGuide
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmMidClstr
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.023133082, y: 0.043146983, z: -0.005279979}
+      rotation: {x: 0.19059274, y: 0.22013828, z: 0.65770626, w: 0.69472015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmMidClstr
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.019496487, y: 0.0583042, z: -0.002386136}
+      rotation: {x: 0.41725048, y: 0.022459567, z: 0.54198277, w: 0.729145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmCurveCG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.023133082, y: 0.043146987, z: -0.005279979}
+      rotation: {x: 0.19059274, y: 0.22013828, z: 0.65770626, w: 0.69472015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmCurveC
+      parentName: Personaje:Beefy_lLowerArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmCurveCG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.019496486, y: 0.0583042, z: -0.002386136}
+      rotation: {x: 0.41725048, y: 0.022459567, z: 0.54198277, w: 0.729145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmCurveC
+      parentName: Personaje:Beefy_lUpperArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmCurve1CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.022968626, y: 0.047473844, z: -0.005519189}
+      rotation: {x: 0.20751786, y: 0.23614982, z: 0.6521286, w: 0.68985355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmCurve1C
+      parentName: Personaje:Beefy_lLowerArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmCurve2CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.023133082, y: 0.043146987, z: -0.005279979}
+      rotation: {x: 0.19059274, y: 0.22013828, z: 0.65770626, w: 0.69472015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmCurve2C
+      parentName: Personaje:Beefy_lLowerArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmCurve3CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.02329754, y: 0.038820125, z: -0.005040769}
+      rotation: {x: 0.17355372, y: 0.20399521, z: 0.6628909, w: 0.69917154}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmCurve3C
+      parentName: Personaje:Beefy_lLowerArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmCurve1CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.017842598, y: 0.061556146, z: -0.0006999664}
+      rotation: {x: 0.41725045, y: 0.022459574, z: 0.54198277, w: 0.729145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmCurve1C
+      parentName: Personaje:Beefy_lUpperArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmCurve2CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.019496487, y: 0.058304198, z: -0.0023861362}
+      rotation: {x: 0.41725048, y: 0.022459567, z: 0.54198277, w: 0.729145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmCurve2C
+      parentName: Personaje:Beefy_lUpperArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmCurve3CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.021150375, y: 0.055052254, z: -0.0040723053}
+      rotation: {x: 0.41725048, y: 0.02245951, z: 0.54198265, w: 0.729145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmCurve3C
+      parentName: Personaje:Beefy_lUpperArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmCurve
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmCurve
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmCurveGuide
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmCurveGuide
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmMidClstr
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.020198058, y: 0.041355066, z: -0.004529708}
+      rotation: {x: -0.6790502, y: 0.6888649, z: -0.23125896, w: 0.10428527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmMidClstr
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.018641897, y: 0.056830924, z: -0.002510714}
+      rotation: {x: 0.717136, y: -0.61046475, z: -0.0174839, w: -0.33577234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmCurveCG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.020198058, y: 0.041355066, z: -0.004529708}
+      rotation: {x: -0.6790502, y: 0.6888649, z: -0.23125896, w: 0.10428527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmCurveC
+      parentName: Personaje:Beefy_rLowerArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmCurveCG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.018641897, y: 0.056830924, z: -0.002510714}
+      rotation: {x: 0.717136, y: -0.61046475, z: -0.0174839, w: -0.33577234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmCurveC
+      parentName: Personaje:Beefy_rUpperArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmCurve1CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.020441042, y: 0.045621317, z: -0.005268645}
+      rotation: {x: -0.67905015, y: 0.6888649, z: -0.23125893, w: 0.10428527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmCurve1C
+      parentName: Personaje:Beefy_rLowerArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmCurve2CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.020198058, y: 0.041355066, z: -0.004529708}
+      rotation: {x: -0.6790502, y: 0.6888649, z: -0.23125896, w: 0.10428527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmCurve2C
+      parentName: Personaje:Beefy_rLowerArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmCurve3CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.019955076, y: 0.03708881, z: -0.0037907714}
+      rotation: {x: -0.6790502, y: 0.6888648, z: -0.23125894, w: 0.10428527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmCurve3C
+      parentName: Personaje:Beefy_rLowerArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmCurve1CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.017620813, y: 0.060302805, z: -0.00076225423}
+      rotation: {x: 0.7171361, y: -0.6104647, z: -0.017483935, w: -0.33577234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmCurve1C
+      parentName: Personaje:Beefy_rUpperArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmCurve2CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.018641897, y: 0.056830924, z: -0.0025107146}
+      rotation: {x: 0.717136, y: -0.61046475, z: -0.0174839, w: -0.33577234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmCurve2C
+      parentName: Personaje:Beefy_rUpperArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmCurve3CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.019662982, y: 0.05335905, z: -0.004259174}
+      rotation: {x: 0.717136, y: -0.61046475, z: -0.0174839, w: -0.33577234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmCurve3C
+      parentName: Personaje:Beefy_rUpperArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegCurve
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegCurve
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegCurveGuide
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegCurveGuide
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegMidClstr
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.008094966, y: 0.012629, z: 0.003188865}
+      rotation: {x: 0.6358863, y: 0.35773197, z: 0.533891, w: 0.42736033}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegMidClstr
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.006436514, y: 0.024770591, z: 0.0028152617}
+      rotation: {x: 0.4472081, y: 0.6003066, z: 0.31849384, w: 0.5815486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegCurveCG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.008094966, y: 0.012628999, z: 0.003188865}
+      rotation: {x: 0.6358863, y: 0.35773197, z: 0.533891, w: 0.42736033}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegCurveC
+      parentName: Personaje:Beefy_lLowerLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegCurveCG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.006436514, y: 0.024770591, z: 0.0028152617}
+      rotation: {x: 0.4472081, y: 0.6003066, z: 0.31849384, w: 0.5815486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegCurveC
+      parentName: Personaje:Beefy_lUpperLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegCurve1CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.0075258682, y: 0.015609909, z: 0.004409735}
+      rotation: {x: 0.6423723, y: 0.36588615, z: 0.5283361, w: 0.41754776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegCurve1C
+      parentName: Personaje:Beefy_lLowerLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegCurve2CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.008094966, y: 0.012629, z: 0.0031888655}
+      rotation: {x: 0.6358863, y: 0.35773194, z: 0.53389096, w: 0.4273604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegCurve2C
+      parentName: Personaje:Beefy_lLowerLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegCurve3CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.008664064, y: 0.00964809, z: 0.0019679952}
+      rotation: {x: 0.6292512, y: 0.34949434, z: 0.53931946, w: 0.4370711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegCurve3C
+      parentName: Personaje:Beefy_lLowerLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegCurve1CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.006176377, y: 0.027860636, z: 0.0014075952}
+      rotation: {x: 0.44720805, y: 0.6003066, z: 0.31849402, w: 0.5815484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegCurve1C
+      parentName: Personaje:Beefy_lUpperLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegCurve2CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.006436516, y: 0.024770591, z: 0.0028152629}
+      rotation: {x: 0.4472081, y: 0.6003066, z: 0.31849384, w: 0.5815486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegCurve2C
+      parentName: Personaje:Beefy_lUpperLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegCurve3CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0.006696657, y: 0.021680541, z: 0.004222934}
+      rotation: {x: 0.4472081, y: 0.60030633, z: 0.3184934, w: 0.5815489}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegCurve3C
+      parentName: Personaje:Beefy_lUpperLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegCurve
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegCurve
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegCurveGuide
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegCurveGuide
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegMidClstr
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.008248951, y: 0.012418399, z: 0.001651552}
+      rotation: {x: -0.40619686, y: 0.5500527, z: -0.33280528, w: 0.6493742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegMidClstr
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.0065155057, y: 0.024559991, z: 0.0022781417}
+      rotation: {x: 0.5676988, y: -0.3448262, z: 0.58060503, w: -0.47086176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegCurveCG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.008248951, y: 0.012418399, z: 0.001651552}
+      rotation: {x: -0.40619686, y: 0.5500527, z: -0.33280528, w: 0.6493742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegCurveC
+      parentName: Personaje:Beefy_rLowerLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegCurveCG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.0065155057, y: 0.024559991, z: 0.0022781417}
+      rotation: {x: 0.5676988, y: -0.3448262, z: 0.58060503, w: -0.47086176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegCurveC
+      parentName: Personaje:Beefy_rUpperLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegCurve1CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.007681852, y: 0.015294004, z: 0.003103965}
+      rotation: {x: -0.3964482, y: 0.5450183, z: -0.34098732, w: 0.6553713}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegCurve1C
+      parentName: Personaje:Beefy_rLowerLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegCurve2CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.008248951, y: 0.012418399, z: 0.001651552}
+      rotation: {x: -0.40619686, y: 0.5500527, z: -0.33280528, w: 0.6493742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegCurve2C
+      parentName: Personaje:Beefy_rLowerLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegCurve3CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.008816049, y: 0.009542792, z: 0.00019913922}
+      rotation: {x: -0.4158539, y: 0.55496377, z: -0.3245498, w: 0.64323264}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegCurve3C
+      parentName: Personaje:Beefy_rLowerLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegCurve1CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.0062158722, y: 0.027755339, z: 0.0011390425}
+      rotation: {x: 0.56769866, y: -0.3448263, z: 0.5806051, w: -0.47086176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegCurve1C
+      parentName: Personaje:Beefy_rUpperLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegCurve2CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.0065155076, y: 0.024559991, z: 0.0022781435}
+      rotation: {x: 0.5676988, y: -0.3448262, z: 0.58060503, w: -0.47086176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegCurve2C
+      parentName: Personaje:Beefy_rUpperLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegCurve3CG
+      parentName: Personaje:Beefy_extraCurveNodesG
+      position: {x: 0.0068151453, y: 0.021364639, z: 0.0034172477}
+      rotation: {x: 0.5676992, y: -0.34482583, z: 0.58060485, w: -0.4708618}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegCurve3C
+      parentName: Personaje:Beefy_rUpperLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Locator_Grp
+      parentName: Personaje:BeefyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowTwistLctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: -0.022804176, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.224319, y: 0.25202018, z: 0.64616114, w: 0.6845748}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristAimLctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: -0.022804176, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.224319, y: 0.25202018, z: 0.64616114, w: 0.6845748}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristTwistLctr
+      parentName: Personaje:Beefy_lWristAimLctr
+      position: {x: -0.017345896, y: -1.9984014e-17, z: 2.4424906e-17}
+      rotation: {x: -0.09763194, y: -0.00009866092, z: -0.000009645532, w: 0.9952226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowTwist75Lctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: -0.022804176, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.30050707, y: 0.16773853, z: 0.6144418, w: 0.7099441}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowTwist50Lctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: -0.022804176, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.2755435, y: 0.19616522, z: 0.6260343, w: 0.70262086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowTwist25Lctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: -0.022804176, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.25013378, y: 0.22427428, z: 0.63661313, w: 0.69415987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowTwistLctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: -0.23125896, y: -0.104285285, z: 0.67905015, w: 0.6888649}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristAimLctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: -0.67905015, y: 0.6888649, z: -0.23125893, w: 0.104285285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristTwistLctr
+      parentName: Personaje:Beefy_rWristAimLctr
+      position: {x: 0.017345896, y: -3.7747583e-17, z: 3.4416914e-17}
+      rotation: {x: 1.6164951e-12, y: -0.00009914973, z: 0.000000016303575, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowTwist75Lctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: 0.70361245, y: -0.6691021, z: 0.13971165, w: -0.1941975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowTwist50Lctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: 0.6967732, y: -0.6770089, z: 0.17057852, w: -0.16452691}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowTwist25Lctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: 0.6885804, y: -0.6836009, z: 0.20111398, w: -0.13453668}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeTwistLctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: -0.0069568, y: 0.018590663, z: 0.005630541}
+      rotation: {x: 0.648695, y: 0.37393898, z: 0.5226676, w: 0.40765557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lAnkleAimLctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: -0.0069568, y: 0.018590663, z: 0.005630541}
+      rotation: {x: 0.64868736, y: 0.3739292, z: 0.52267456, w: 0.4076677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lAnkleTwistLctr
+      parentName: Personaje:Beefy_lAnkleAimLctr
+      position: {x: -0.013084137, y: 0.0000000019974287, z: 8.304728e-10}
+      rotation: {x: -0.046137154, y: 0.079875685, z: -0.19488266, w: 0.9764794}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeTwist75Lctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: -0.0069568, y: 0.018590663, z: 0.005630541}
+      rotation: {x: 0.5756356, y: 0.47882703, z: 0.44576478, w: 0.49057323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeTwist50Lctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: -0.0069568, y: 0.018590663, z: 0.005630541}
+      rotation: {x: 0.60196507, y: 0.4452674, z: 0.47296318, w: 0.4644145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeTwist25Lctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: -0.0069568, y: 0.018590663, z: 0.005630541}
+      rotation: {x: 0.626342, y: 0.41026366, z: 0.4986275, w: 0.43674943}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeTwistLctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: 0.0071147834, y: 0.01816946, z: 0.0045563015}
+      rotation: {x: -0.34907964, y: -0.6612123, z: 0.38662764, w: 0.53987104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rAnkleAimLctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: 0.0071147834, y: 0.01816946, z: 0.0045563015}
+      rotation: {x: -0.38663813, y: 0.5398766, z: -0.34907112, w: 0.66120625}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rAnkleTwistLctr
+      parentName: Personaje:Beefy_rAnkleAimLctr
+      position: {x: 0.013084137, y: -0.0000000024056621, z: -8.095609e-10}
+      rotation: {x: -0.041881353, y: 0.07944833, z: -0.23268697, w: 0.96839595}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeTwist75Lctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: 0.0071147834, y: 0.01816946, z: 0.0045563015}
+      rotation: {x: -0.47209394, y: 0.46698597, z: -0.4555817, w: 0.5928716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeTwist50Lctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: 0.0071147834, y: 0.01816946, z: 0.0045563015}
+      rotation: {x: -0.44499695, y: 0.49287993, z: -0.42138374, w: 0.617643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeTwist25Lctr
+      parentName: Personaje:Beefy_Locator_Grp
+      position: {x: 0.0071147834, y: 0.01816946, z: 0.0045563015}
+      rotation: {x: -0.41648135, y: 0.5172026, z: -0.38584247, w: 0.6404454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_curveNodesG
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:BeefylElbowCurveLctr
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.022801992, y: 0.051800545, z: -0.0057557295}
+      rotation: {x: 0.1564723, y: 0.18766484, z: 0.6676506, w: 0.7032361}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmTopClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.022804176, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.32498404, y: 0.13904023, z: 0.6018543, w: 0.7161178}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmTopClstr
+      parentName: Personaje:Beefy_lLowerArmTopClstrG
+      position: {x: -0.0014454913, y: 0, z: 0}
+      rotation: {x: 0, y: -0.00009914973, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmBtmClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.02346199, y: 0.03449349, z: -0.0048015714}
+      rotation: {x: 0.1564723, y: 0.18766484, z: 0.6676506, w: 0.7032361}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmBtmClstr
+      parentName: Personaje:Beefy_lLowerArmBtmClstrG
+      position: {x: 0.0014454937, y: 0, z: 0}
+      rotation: {x: -6.0067283e-16, y: -0.00009914973, z: 2.2198505e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmTopGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.022804176, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.32498404, y: 0.13904023, z: 0.6018543, w: 0.7161178}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmTopGuideClstr
+      parentName: Personaje:Beefy_lLowerArmTopGuideClstrG
+      position: {x: -0.0028909827, y: 0, z: 0}
+      rotation: {x: 0, y: -0.00009914973, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmBtmGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.02346199, y: 0.03449349, z: -0.0048015714}
+      rotation: {x: 0.1564723, y: 0.18766484, z: 0.6676506, w: 0.7032361}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmBtmGuideClstr
+      parentName: Personaje:Beefy_lLowerArmBtmGuideClstrG
+      position: {x: 0.0028909827, y: 0, z: 0}
+      rotation: {x: -6.0067283e-16, y: -0.00009914973, z: 2.2198505e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lShoulderCurveLctr
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.022194512, y: 0.06784065, z: -0.0066451654}
+      rotation: {x: 0.224319, y: 0.25202018, z: 0.64616114, w: 0.6845748}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowTopCurveLctr
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.030691372, y: 0.058081873, z: -0.0007111295}
+      rotation: {x: 0.11208861, y: -0.029115133, z: 0.21930741, w: 0.96875834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:BeefylUpperArmTopClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.016188797, y: 0.06480792, z: 0.0009861146}
+      rotation: {x: 0.50711685, y: 0.06530958, z: 0.21137193, w: 0.833}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:BeefylUpperArmTopClstr
+      parentName: Personaje:BeefylUpperArmTopClstrG
+      position: {x: -0.0013396859, y: 0, z: 0}
+      rotation: {x: 0, y: 0.00010698038, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmBtmClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.022804176, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.32498404, y: 0.13904023, z: 0.6018543, w: 0.7161178}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmBtmClstr
+      parentName: Personaje:Beefy_lUpperArmBtmClstrG
+      position: {x: 0.0013396859, y: 0, z: 0}
+      rotation: {x: 0, y: 0.00010698038, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmTopGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.016188797, y: 0.06480792, z: 0.0009861146}
+      rotation: {x: 0.50711685, y: 0.06530958, z: 0.21137193, w: 0.833}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmTopGuideClstr
+      parentName: Personaje:Beefy_lUpperArmTopGuideClstrG
+      position: {x: -0.0026793717, y: 0, z: 0}
+      rotation: {x: 0, y: 0.00010698038, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmBtmGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.022804176, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.32498404, y: 0.13904023, z: 0.6018543, w: 0.7161178}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmBtmGuideClstr
+      parentName: Personaje:Beefy_lUpperArmBtmGuideClstrG
+      position: {x: 0.0026793717, y: 0, z: 0}
+      rotation: {x: 0, y: 0.00010698038, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowCurveCG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.022804176, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.32498404, y: 0.13904023, z: 0.6018543, w: 0.7161178}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowCurveC
+      parentName: Personaje:Beefy_lElbowCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:BeefyrElbowCurveLctr
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.02068244, y: 0.049887963, z: -0.0060045454}
+      rotation: {x: -0.67907304, y: 0.6888546, z: -0.23119162, w: 0.10435357}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:BeefyrLowerArmTopClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: 0.70908505, y: -0.6598955, z: 0.108573355, w: -0.22349085}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:BeefyrLowerArmTopClstr
+      parentName: Personaje:BeefyrLowerArmTopClstrG
+      position: {x: 0.0014454913, y: 0, z: 0}
+      rotation: {x: 1, y: -6.07117e-21, z: 0.00009914973, w: -6.1232336e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:BeefyrLowerArmBtmClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.019712105, y: 0.032822784, z: -0.003051873}
+      rotation: {x: -0.67907304, y: 0.6888546, z: -0.23119162, w: 0.10435357}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:BeefyrLowerArmBtmClstr
+      parentName: Personaje:BeefyrLowerArmBtmClstrG
+      position: {x: -0.0014454937, y: 0, z: 0}
+      rotation: {x: 1, y: 2.7749509e-17, z: 0.00009914973, w: 6.122959e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:BeefyrLowerArmTopGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: 0.70908505, y: -0.6598955, z: 0.108573355, w: -0.22349085}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:BeefyrLowerArmTopGuideClstr
+      parentName: Personaje:BeefyrLowerArmTopGuideClstrG
+      position: {x: 0.0028909827, y: 0, z: 0}
+      rotation: {x: 1, y: -6.07117e-21, z: 0.00009914973, w: -6.1232336e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:BeefyrLowerArmBtmGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.019712105, y: 0.032822784, z: -0.003051873}
+      rotation: {x: -0.67907304, y: 0.6888546, z: -0.23119162, w: 0.10435357}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:BeefyrLowerArmBtmGuideClstr
+      parentName: Personaje:BeefyrLowerArmBtmGuideClstrG
+      position: {x: -0.0028909827, y: 0, z: 0}
+      rotation: {x: 1, y: 2.7749509e-17, z: 0.00009914973, w: 6.122959e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rShoulderCurveLctr
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.021584783, y: 0.06570284, z: -0.008746866}
+      rotation: {x: -0.67905015, y: 0.6888649, z: -0.23125893, w: 0.104285285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowTopCurveLctr
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.0025495482, y: 0.07140047, z: 0.0026833587}
+      rotation: {x: 0.96136886, y: -0.24971654, z: -0.025569677, w: -0.112950064}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmTopClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.01659978, y: 0.0637745, z: 0.0009861146}
+      rotation: {x: 0.87103003, y: -0.24427398, z: 0.05781334, w: -0.42224944}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmTopClstr
+      parentName: Personaje:Beefy_rUpperArmTopClstrG
+      position: {x: 0.0013396859, y: 0, z: 0}
+      rotation: {x: 1, y: -6.550659e-21, z: -0.00010698038, w: 6.1232336e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmBtmClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: 0.70908505, y: -0.6598955, z: 0.108573355, w: -0.22349085}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmBtmClstr
+      parentName: Personaje:Beefy_rUpperArmBtmClstrG
+      position: {x: -0.0013396859, y: 0, z: 0}
+      rotation: {x: 1, y: 6.550659e-21, z: -0.00010698038, w: -6.1232336e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmTopGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.01659978, y: 0.0637745, z: 0.0009861146}
+      rotation: {x: 3.995562e-10, y: 0.05453348, z: -0.24502705, w: 0.96798134}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmTopGuideClstr
+      parentName: Personaje:Beefy_rUpperArmTopGuideClstrG
+      position: {x: 0.0026793717, y: 0, z: 0}
+      rotation: {x: 1, y: -6.550659e-21, z: -0.00010698038, w: 6.1232336e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmBtmGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: 0.70908505, y: -0.6598955, z: 0.108573355, w: -0.22349085}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmBtmGuideClstr
+      parentName: Personaje:Beefy_rUpperArmBtmGuideClstrG
+      position: {x: -0.0026793717, y: 0, z: 0}
+      rotation: {x: 1, y: 6.550659e-21, z: -0.00010698038, w: -6.1232336e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowCurveCG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: 0.70908505, y: -0.6598955, z: 0.108573355, w: -0.22349085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowCurveC
+      parentName: Personaje:Beefy_rElbowCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeCurveLctr
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.009233132, y: 0.019751463, z: 0.00074718473}
+      rotation: {x: 0.49999994, y: 0.5000001, z: 0.49999994, w: 0.5000001}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegTopClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.0069568, y: 0.018590663, z: 0.005630541}
+      rotation: {x: 0.54743916, y: 0.5108335, z: 0.41712052, w: 0.5151408}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegTopClstr
+      parentName: Personaje:Beefy_lLowerLegTopClstrG
+      position: {x: -0.0010903453, y: 0, z: 0}
+      rotation: {x: 0.5240173, y: 0.4758012, z: 0.5228869, w: -0.4749827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegBtmClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.009233132, y: 0.006667336, z: 0.0007471892}
+      rotation: {x: 0.49999994, y: 0.5000001, z: 0.49999994, w: 0.5000001}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegBtmClstr
+      parentName: Personaje:Beefy_lLowerLegBtmClstrG
+      position: {x: 0.0010903447, y: 0, z: 0}
+      rotation: {x: 0.5240173, y: 0.4758012, z: 0.5228869, w: -0.4749827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegTopGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.0069568, y: 0.018590663, z: 0.005630541}
+      rotation: {x: 0.54743916, y: 0.5108335, z: 0.41712052, w: 0.5151408}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegTopGuideClstr
+      parentName: Personaje:Beefy_lLowerLegTopGuideClstrG
+      position: {x: -0.0021806895, y: 0, z: 0}
+      rotation: {x: 0.5240173, y: 0.4758012, z: 0.5228869, w: -0.4749827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegBtmGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.009233132, y: 0.006667336, z: 0.0007471892}
+      rotation: {x: 0.49999994, y: 0.5000001, z: 0.49999994, w: 0.5000001}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegBtmGuideClstr
+      parentName: Personaje:Beefy_lLowerLegBtmGuideClstrG
+      position: {x: 0.002180689, y: 0, z: 0}
+      rotation: {x: 0.5240173, y: 0.4758012, z: 0.5228869, w: -0.4749827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lHipCurveLctr
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.004586726, y: 0.031003915, z: 0.010714402}
+      rotation: {x: 0.6487216, y: 0.37397125, z: 0.5226407, w: 0.4076181}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeTopCurveLctr
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.0059162527, y: 0.01732878, z: -4.8680675e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegTopClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.0059162527, y: 0.030950524, z: -4.857226e-19}
+      rotation: {x: 0.51578975, y: 0.51578975, z: 0.48369506, w: 0.48369506}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegTopClstr
+      parentName: Personaje:Beefy_lUpperLegTopClstrG
+      position: {x: -0.0011351443, y: 0, z: 0}
+      rotation: {x: 0.5003437, y: 0.500352, z: 0.49954623, w: -0.4997576}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegBtmClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.0069568, y: 0.018590663, z: 0.005630541}
+      rotation: {x: 0.54743916, y: 0.5108335, z: 0.41712052, w: 0.5151408}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegBtmClstr
+      parentName: Personaje:Beefy_lUpperLegBtmClstrG
+      position: {x: 0.0011351466, y: -0.000000005022157, z: 0.000000008940696}
+      rotation: {x: 0.500378, y: 0.5003881, z: 0.49951407, w: -0.4997192}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegTopGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.0059162527, y: 0.030950524, z: -4.857226e-19}
+      rotation: {x: 0, y: -5.6281104e-20, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegTopGuideClstr
+      parentName: Personaje:Beefy_lUpperLegTopGuideClstrG
+      position: {x: -0.0022702909, y: 0, z: 0}
+      rotation: {x: 0.5003437, y: 0.500352, z: 0.49954623, w: -0.4997576}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegBtmGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.0069568, y: 0.018590663, z: 0.005630541}
+      rotation: {x: 0.54743916, y: 0.5108335, z: 0.41712052, w: 0.5151408}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegBtmGuideClstr
+      parentName: Personaje:Beefy_lUpperLegBtmGuideClstrG
+      position: {x: 0.0022702909, y: -0.0000000100444595, z: 0.000000017881392}
+      rotation: {x: 0.500378, y: 0.5003881, z: 0.49951407, w: -0.4997192}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeCurveCG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: -0.0069568, y: 0.018590663, z: 0.005630541}
+      rotation: {x: 0.54743916, y: 0.5108335, z: 0.41712052, w: 0.5151408}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeCurveC
+      parentName: Personaje:Beefy_lKneeCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeCurveLctr
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.009383119, y: 0.019751463, z: -0.0012532026}
+      rotation: {x: 0.5000001, y: -0.49999994, z: 0.5000001, w: -0.49999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegTopClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.0071147834, y: 0.01816946, z: 0.0045563015}
+      rotation: {x: -0.4976859, y: 0.43960333, z: -0.4883274, w: 0.5662102}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegTopClstr
+      parentName: Personaje:Beefy_rLowerLegTopClstrG
+      position: {x: 0.0010903453, y: 0, z: 0}
+      rotation: {x: 0.4749827, y: -0.5228868, z: 0.4758012, w: 0.5240172}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegBtmClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.009383119, y: 0.006667336, z: -0.0012531978}
+      rotation: {x: 0.5000001, y: -0.4999999, z: 0.5000001, w: -0.4999999}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegBtmClstr
+      parentName: Personaje:Beefy_rLowerLegBtmClstrG
+      position: {x: -0.0010903447, y: 0, z: 0}
+      rotation: {x: 0.4749827, y: -0.5228868, z: 0.4758012, w: 0.5240172}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegTopGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.0071147834, y: 0.01816946, z: 0.0045563015}
+      rotation: {x: -0.4976859, y: 0.43960333, z: -0.4883274, w: 0.5662102}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegTopGuideClstr
+      parentName: Personaje:Beefy_rLowerLegTopGuideClstrG
+      position: {x: 0.0021806895, y: 0, z: 0}
+      rotation: {x: 0.4749827, y: -0.5228868, z: 0.4758012, w: 0.5240172}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegBtmGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.009383119, y: 0.006667336, z: -0.0012531978}
+      rotation: {x: 0.5000001, y: -0.4999999, z: 0.5000001, w: -0.4999999}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegBtmGuideClstr
+      parentName: Personaje:Beefy_rLowerLegBtmGuideClstrG
+      position: {x: -0.002180689, y: 0, z: 0}
+      rotation: {x: 0.4749827, y: -0.5228868, z: 0.4758012, w: 0.5240172}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rHipCurveLctr
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.0047530336, y: 0.030144216, z: 0.010604369}
+      rotation: {x: -0.38658738, y: 0.53984475, z: -0.34911463, w: 0.66123885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeTopCurveLctr
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.0059162527, y: 0.044572268, z: -3.6429192e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegTopClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.0059162527, y: 0.030950524, z: -3.6429192e-19}
+      rotation: {x: -0.48738667, y: 0.48738667, z: -0.5123029, w: 0.5123029}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegTopClstr
+      parentName: Personaje:Beefy_rUpperLegTopClstrG
+      position: {x: 0.0011351443, y: 0, z: 0}
+      rotation: {x: 0.49973914, y: -0.4995278, z: 0.5003704, w: 0.5003621}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegBtmClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.0071147834, y: 0.01816946, z: 0.0045563015}
+      rotation: {x: -0.4976859, y: 0.43960333, z: -0.4883274, w: 0.5662102}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegBtmClstr
+      parentName: Personaje:Beefy_rUpperLegBtmClstrG
+      position: {x: -0.0011351466, y: 0.0000000050217204, z: -0.000000009536743}
+      rotation: {x: 0.49970078, y: -0.49949563, z: 0.5004065, w: 0.50039643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegTopGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.0059162527, y: 0.030950524, z: -3.6429192e-19}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegTopGuideClstr
+      parentName: Personaje:Beefy_rUpperLegTopGuideClstrG
+      position: {x: 0.0022702909, y: 0, z: 0}
+      rotation: {x: 0.49973914, y: -0.4995278, z: 0.5003704, w: 0.5003621}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegBtmGuideClstrG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.0071147834, y: 0.01816946, z: 0.0045563015}
+      rotation: {x: -0.4976859, y: 0.43960333, z: -0.4883274, w: 0.5662102}
+      scale: {x: 0, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegBtmGuideClstr
+      parentName: Personaje:Beefy_rUpperLegBtmGuideClstrG
+      position: {x: -0.0022702909, y: 0.000000010043586, z: -0.00000001847744}
+      rotation: {x: 0.49970078, y: -0.49949563, z: 0.5004065, w: 0.50039643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeCurveCG
+      parentName: Personaje:Beefy_curveNodesG
+      position: {x: 0.0071147834, y: 0.01816946, z: 0.0045563015}
+      rotation: {x: -0.4976859, y: 0.43960333, z: -0.4883274, w: 0.5662102}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeCurveC
+      parentName: Personaje:Beefy_rKneeCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Skeleton_Grp
+      parentName: Personaje:Beefy_MainC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowCurveJ
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.020684013, y: 0.04988735, z: -0.0060075433}
+      rotation: {x: 0.70908505, y: -0.6598955, z: 0.108573355, w: -0.22349085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rShoulderCurveJ
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.01659978, y: 0.0637745, z: 0.0009861146}
+      rotation: {x: 0.01748394, y: -0.3357723, z: 0.717136, w: 0.61046475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmCurveJ1
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.017620813, y: 0.060302805, z: -0.00076225423}
+      rotation: {x: 0.7171361, y: -0.6104647, z: -0.017483935, w: -0.33577234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmCurveJ2
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.018641897, y: 0.056830924, z: -0.0025107146}
+      rotation: {x: 0.717136, y: -0.61046475, z: -0.0174839, w: -0.33577234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperArmCurveJ3
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.019662982, y: 0.05335905, z: -0.004259174}
+      rotation: {x: 0.717136, y: -0.61046475, z: -0.0174839, w: -0.33577234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmCurveJ1
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.020441042, y: 0.045621317, z: -0.005268645}
+      rotation: {x: -0.67905015, y: 0.6888649, z: -0.23125893, w: 0.10428527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmCurveJ2
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.020198058, y: 0.041355066, z: -0.004529708}
+      rotation: {x: -0.6790502, y: 0.6888649, z: -0.23125896, w: 0.10428527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerArmCurveJ3
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.019955076, y: 0.03708881, z: -0.0037907714}
+      rotation: {x: -0.6790502, y: 0.6888648, z: -0.23125894, w: 0.10428527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeCurveJ
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.0071147834, y: 0.01816946, z: 0.0045563015}
+      rotation: {x: -0.4976859, y: 0.43960333, z: -0.4883274, w: 0.5662102}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Neck02J
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.00050331984, y: 0.07374072, z: 0.001973768}
+      rotation: {x: 0.27111867, y: -0.0042714723, z: -0.015162872, w: 0.962417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_HeadJ
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.000582956, y: 0.07626743, z: 0.0035208215}
+      rotation: {x: -0.40192586, y: 0.58176935, z: -0.42005336, w: 0.5688191}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_HeadTipJ
+      parentName: Personaje:Beefy_HeadJ
+      position: {x: -0.019255307, y: -1.110223e-18, z: 7.864656e-18}
+      rotation: {x: 0.47490704, y: -0.52389246, z: 0.47490704, w: 0.52389246}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Spine04J
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.00023419622, y: 0.06520194, z: 0.001201517}
+      rotation: {x: -0.425256, y: 0.5649401, z: -0.44284177, w: 0.5512633}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Neck01J
+      parentName: Personaje:Beefy_Spine04J
+      position: {x: -0.005639117, y: 0.0022319744, z: 2.220446e-18}
+      rotation: {x: 2.220446e-16, y: 2.220446e-16, z: 0.14963706, w: 0.988741}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rClavicleJ
+      parentName: Personaje:Beefy_Spine04J
+      position: {x: -0.0034449142, y: 0.000057328853, z: 0.007919049}
+      rotation: {x: -0.6069648, y: -0.3627585, z: -0.3728077, w: 0.6008448}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rShoulderJ
+      parentName: Personaje:Beefy_rClavicleJ
+      position: {x: 0.009548136, y: -8.881784e-18, z: -5.5511148e-18}
+      rotation: {x: 0.25304374, y: -0.013367387, z: 0.4011903, w: 0.880248}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rElbowJ
+      parentName: Personaje:Beefy_rShoulderJ
+      position: {x: 0.016076228, y: 1.7763568e-17, z: 1.3877787e-19}
+      rotation: {x: 4.168284e-16, y: 0.34535584, z: 1.5319695e-16, w: 0.9384718}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rWristJDummy
+      parentName: Personaje:Beefy_rElbowJ
+      position: {x: 0.017345896, y: -8.881784e-18, z: 1.3877787e-19}
+      rotation: {x: 0, y: -0.00009914973, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rForearmJ
+      parentName: Personaje:Beefy_rElbowJ
+      position: {x: 0.008672948, y: -6.938894e-20, z: -2.2088105e-31}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:BeefyrArmUpLctr
+      parentName: Personaje:Beefy_rShoulderJ
+      position: {x: 0.016083058, y: 0, z: 0.031922124}
+      rotation: {x: -2.2979819e-21, y: 0.17540082, z: 1.28982095e-20, w: 0.98449713}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lClavicleJ
+      parentName: Personaje:Beefy_Spine04J
+      position: {x: -0.0034449142, y: 0.000057328853, z: -0.007919049}
+      rotation: {x: -0.3627585, y: 0.6069649, z: -0.60084474, w: -0.3728077}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lShoulderJ
+      parentName: Personaje:Beefy_lClavicleJ
+      position: {x: -0.009548136, y: 0, z: 4.9960034e-18}
+      rotation: {x: 0.34319147, y: 0.012230954, z: 0.35047758, w: 0.8713412}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lElbowJ
+      parentName: Personaje:Beefy_lShoulderJ
+      position: {x: -0.016076228, y: 0, z: -1.3877787e-19}
+      rotation: {x: 0, y: 0.31641805, z: -0, w: 0.94861984}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lWristJDummy
+      parentName: Personaje:Beefy_lElbowJ
+      position: {x: -0.017345896, y: 8.881784e-18, z: 0}
+      rotation: {x: 0, y: -0.00009914973, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lForearmJ
+      parentName: Personaje:Beefy_lElbowJ
+      position: {x: -0.008672948, y: -6.938894e-20, z: 4.440892e-18}
+      rotation: {x: -0.097631946, y: 0, z: -0, w: 0.9952226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:BeefylArmUpLctr
+      parentName: Personaje:Beefy_lShoulderJ
+      position: {x: -0.016083699, y: -7.105427e-17, z: -0.034922123}
+      rotation: {x: -6.2836065e-16, y: 0.1602851, z: 3.1543052e-16, w: 0.98707074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_spine03J
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.000026549355, y: 0.057851315, z: 0.0006179816}
+      rotation: {x: -0.04381977, y: 0.0003496617, z: -0.007971623, w: 0.9990076}
+      scale: {x: 0.99836975, y: 1.0016329, z: 0.99836975}
+    - name: Personaje:Beefy_lShoulderCurveJ
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.016188797, y: 0.06480792, z: 0.0009861146}
+      rotation: {x: 0.41725057, y: 0.022459464, z: 0.54198265, w: 0.729145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmCurveJ1
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.017842598, y: 0.061556146, z: -0.0006999664}
+      rotation: {x: 0.41725045, y: 0.022459574, z: 0.54198277, w: 0.729145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmCurveJ2
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.019496487, y: 0.058304198, z: -0.0023861362}
+      rotation: {x: 0.41725048, y: 0.022459567, z: 0.54198277, w: 0.729145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperArmCurveJ3
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.021150375, y: 0.055052254, z: -0.0040723053}
+      rotation: {x: 0.41725048, y: 0.02245951, z: 0.54198265, w: 0.729145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmCurveJ1
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.022968626, y: 0.047473844, z: -0.005519189}
+      rotation: {x: 0.20751786, y: 0.23614982, z: 0.6521286, w: 0.68985355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmCurveJ2
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.023133082, y: 0.043146987, z: -0.005279979}
+      rotation: {x: 0.19059274, y: 0.22013828, z: 0.65770626, w: 0.69472015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerArmCurveJ3
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.02329754, y: 0.038820125, z: -0.005040769}
+      rotation: {x: 0.17355372, y: 0.20399521, z: 0.6628909, w: 0.69917154}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeCurveJ
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.0069568, y: 0.018590663, z: 0.005630541}
+      rotation: {x: 0.54743916, y: 0.5108335, z: 0.41712052, w: 0.5151408}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lHipCurveJ
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.0059162527, y: 0.030950524, z: -4.857226e-19}
+      rotation: {x: 0.44720802, y: 0.60030663, z: 0.31849402, w: 0.58154833}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegCurveJ1
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.006176377, y: 0.027860636, z: 0.0014075952}
+      rotation: {x: 0.44720805, y: 0.6003066, z: 0.31849402, w: 0.5815484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegCurveJ2
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.006436516, y: 0.024770591, z: 0.0028152629}
+      rotation: {x: 0.4472081, y: 0.6003066, z: 0.31849384, w: 0.5815486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lUpperLegCurveJ3
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.006696657, y: 0.021680541, z: 0.004222934}
+      rotation: {x: 0.4472081, y: 0.60030633, z: 0.3184934, w: 0.5815489}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegCurveJ1
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.0075258682, y: 0.015609909, z: 0.004409735}
+      rotation: {x: 0.6423723, y: 0.36588615, z: 0.5283361, w: 0.41754776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegCurveJ2
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.008094966, y: 0.012629, z: 0.0031888655}
+      rotation: {x: 0.6358863, y: 0.35773194, z: 0.53389096, w: 0.4273604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLowerLegCurveJ3
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.008664064, y: 0.00964809, z: 0.0019679952}
+      rotation: {x: 0.6292512, y: 0.34949434, z: 0.53931946, w: 0.4370711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_ROOTJ
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 5.2735593e-18, y: 0.035468448, z: -2.0816681e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lHipJ
+      parentName: Personaje:Beefy_ROOTJ
+      position: {x: -0.0059162527, y: -0.004517924, z: -2.7755575e-19}
+      rotation: {x: 0.44720808, y: 0.6003063, z: 0.31849334, w: 0.58154905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lKneeJ
+      parentName: Personaje:Beefy_lHipJ
+      position: {x: -0.013621744, y: -2.017158e-18, z: -9.992007e-18}
+      rotation: {x: 0.0002603428, y: -0.0001256915, z: 0.39630842, w: 0.9181174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lAnkleJ
+      parentName: Personaje:Beefy_lKneeJ
+      position: {x: -0.013084132, y: 5.5511148e-18, z: 3.330669e-18}
+      rotation: {x: -0.07208138, y: 0.057558987, z: -0.53745484, w: 0.8382324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lBallJ
+      parentName: Personaje:Beefy_lAnkleJ
+      position: {x: -0.009081163, y: 2.220446e-18, z: 0}
+      rotation: {x: -0.000000005830861, y: 0.000000002549813, z: -0.40066206, w: 0.9162259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lToeJ
+      parentName: Personaje:Beefy_lBallJ
+      position: {x: -0.0085353125, y: 8.059253e-19, z: 2.320366e-16}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_lLegUpLctr
+      parentName: Personaje:Beefy_lHipJ
+      position: {x: -0.013621744, y: -2.0149896e-18, z: -8.881784e-18}
+      rotation: {x: 0.00028451727, y: 0.000016412012, z: 0.17868942, w: 0.9839055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rHipJ
+      parentName: Personaje:Beefy_ROOTJ
+      position: {x: 0.0059162527, y: -0.004517924, z: -1.561251e-19}
+      rotation: {x: 0.56769925, y: -0.34482569, z: 0.58060485, w: -0.4708618}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rKneeJ
+      parentName: Personaje:Beefy_rHipJ
+      position: {x: 0.013621744, y: 2.9159616e-18, z: -2.220446e-18}
+      rotation: {x: 0.00022690851, y: -0.0001101701, z: 0.39270005, w: 0.9196666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rAnkleJ
+      parentName: Personaje:Beefy_rKneeJ
+      position: {x: 0.013084132, y: 6.383782e-18, z: 0}
+      rotation: {x: -0.06796266, y: 0.05871253, z: -0.5697105, w: 0.81692344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rBallJ
+      parentName: Personaje:Beefy_rAnkleJ
+      position: {x: 0.009081163, y: 2.7755574e-18, z: -1.110223e-18}
+      rotation: {x: -0.000000007000769, y: 0.0000000030614093, z: -0.40066206, w: 0.9162259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rToeJ
+      parentName: Personaje:Beefy_rBallJ
+      position: {x: 0.0085353125, y: 8.059253e-19, z: 3.430589e-16}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLegUpLctr
+      parentName: Personaje:Beefy_rHipJ
+      position: {x: 0.013621744, y: 2.9156907e-18, z: -1.110223e-18}
+      rotation: {x: 0.0002478475, y: 0.000012862949, z: 0.17675728, w: 0.9842545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_spine01J
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.00000022747743, y: 0.04290353, z: 0.0006974721}
+      rotation: {x: 0.063638784, y: -0.000002091373, z: -0.000032796568, w: 0.997973}
+      scale: {x: 0.99836975, y: 1.0016329, z: 0.99836975}
+    - name: Personaje:Beefy_spine02J
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.000004231484, y: 0.050354414, z: 0.0011672182}
+      rotation: {x: -0.0069346996, y: 0.00000725384, z: -0.0010459952, w: 0.99997544}
+      scale: {x: 0.99836975, y: 1.0016329, z: 0.99836975}
+    - name: Personaje:Beefy_lElbowCurveJ
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: -0.022804176, y: 0.05180048, z: -0.0057583866}
+      rotation: {x: 0.32498404, y: 0.13904023, z: 0.6018543, w: 0.7161178}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rHipCurveJ
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.0059162527, y: 0.030950524, z: -3.6429192e-19}
+      rotation: {x: 0.58060515, y: 0.47086176, z: -0.5676986, w: -0.3448263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegCurveJ1
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.0062158722, y: 0.027755339, z: 0.0011390425}
+      rotation: {x: 0.56769866, y: -0.3448263, z: 0.5806051, w: -0.47086176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegCurveJ2
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.0065155076, y: 0.024559991, z: 0.0022781435}
+      rotation: {x: 0.5676988, y: -0.3448262, z: 0.58060503, w: -0.47086176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rUpperLegCurveJ3
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.0068151453, y: 0.021364639, z: 0.0034172477}
+      rotation: {x: 0.5676992, y: -0.34482583, z: 0.58060485, w: -0.4708618}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegCurveJ1
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.007681852, y: 0.015294004, z: 0.003103965}
+      rotation: {x: -0.3964482, y: 0.5450183, z: -0.34098732, w: 0.6553713}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegCurveJ2
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.008248951, y: 0.012418399, z: 0.001651552}
+      rotation: {x: -0.40619686, y: 0.5500527, z: -0.33280528, w: 0.6493742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_rLowerLegCurveJ3
+      parentName: Personaje:Beefy_Skeleton_Grp
+      position: {x: 0.008816049, y: 0.009542792, z: 0.00019913922}
+      rotation: {x: -0.4158539, y: 0.55496377, z: -0.3245498, w: 0.64323264}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_Mesh_Grp
+      parentName: respiracion(Clone)
+      position: {x: -4.440892e-18, y: -0.057195466, z: -0.0009261161}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_pelvis
+      parentName: Personaje:Beefy_Mesh_Grp
+      position: {x: -0, y: 0, z: -0.004472193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_arm_Grp
+      parentName: Personaje:Beefy_Mesh_Grp
+      position: {x: -0, y: 0, z: -0.004472193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_hand
+      parentName: Personaje:Beefy_L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_thumb3
+      parentName: Personaje:Beefy_L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_thumb2
+      parentName: Personaje:Beefy_L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_thumb1
+      parentName: Personaje:Beefy_L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_index1
+      parentName: Personaje:Beefy_L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_index2
+      parentName: Personaje:Beefy_L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_index3
+      parentName: Personaje:Beefy_L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_pinky3
+      parentName: Personaje:Beefy_L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_pinky2
+      parentName: Personaje:Beefy_L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_pinky1
+      parentName: Personaje:Beefy_L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_elbow
+      parentName: Personaje:Beefy_L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_wrist
+      parentName: Personaje:Beefy_L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_arm
+      parentName: Personaje:Beefy_L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_leg_Grp
+      parentName: Personaje:Beefy_Mesh_Grp
+      position: {x: -0, y: -0.0008451179, z: -0.004472193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_leg_but
+      parentName: Personaje:Beefy_L_leg_Grp
+      position: {x: -0, y: 0.0008451179, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_leg_knee
+      parentName: Personaje:Beefy_L_leg_Grp
+      position: {x: -0, y: 0.0008451179, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_leg_ankle
+      parentName: Personaje:Beefy_L_leg_Grp
+      position: {x: -0, y: 0.0008451179, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_leg_foot
+      parentName: Personaje:Beefy_L_leg_Grp
+      position: {x: -0, y: 0.0008451179, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_leg_toe
+      parentName: Personaje:Beefy_L_leg_Grp
+      position: {x: -0, y: 0.0008451179, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_leg
+      parentName: Personaje:Beefy_L_leg_Grp
+      position: {x: -0, y: 0.0008451179, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_body_Grp
+      parentName: Personaje:Beefy_Mesh_Grp
+      position: {x: -0, y: 0, z: -0.004472193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_spine1
+      parentName: Personaje:Beefy_body_Grp
+      position: {x: -0, y: -0.0010991037, z: -0.00007895204}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.90573657, y: 0.87011385, z: 0.90573657}
+    - name: Personaje:Beefy_spine2
+      parentName: Personaje:Beefy_body_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_chest
+      parentName: Personaje:Beefy_body_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_neck
+      parentName: Personaje:Beefy_body_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_head
+      parentName: Personaje:Beefy_body_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_L_shoulder
+      parentName: Personaje:Beefy_body_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_shoulder
+      parentName: Personaje:Beefy_body_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_arm_Grp
+      parentName: Personaje:Beefy_Mesh_Grp
+      position: {x: -0, y: 0, z: -0.004472193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_hand
+      parentName: Personaje:Beefy_R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_thumb3
+      parentName: Personaje:Beefy_R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_thumb2
+      parentName: Personaje:Beefy_R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_thumb1
+      parentName: Personaje:Beefy_R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_index1
+      parentName: Personaje:Beefy_R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_index2
+      parentName: Personaje:Beefy_R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_index3
+      parentName: Personaje:Beefy_R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_pinky3
+      parentName: Personaje:Beefy_R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_pinky2
+      parentName: Personaje:Beefy_R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_pinky1
+      parentName: Personaje:Beefy_R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_elbow
+      parentName: Personaje:Beefy_R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_wrist
+      parentName: Personaje:Beefy_R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_arm
+      parentName: Personaje:Beefy_R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_leg_Grp
+      parentName: Personaje:Beefy_Mesh_Grp
+      position: {x: -0, y: -0.0008451179, z: -0.004472193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_leg_but
+      parentName: Personaje:Beefy_R_leg_Grp
+      position: {x: -0, y: 0.0008451179, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_leg_knee
+      parentName: Personaje:Beefy_R_leg_Grp
+      position: {x: -0, y: 0.0008451179, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_leg_ankle
+      parentName: Personaje:Beefy_R_leg_Grp
+      position: {x: -0, y: 0.0008451179, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_leg_foot
+      parentName: Personaje:Beefy_R_leg_Grp
+      position: {x: -0, y: 0.0008451179, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_leg_toe
+      parentName: Personaje:Beefy_R_leg_Grp
+      position: {x: -0, y: 0.0008451179, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Personaje:Beefy_R_leg
+      parentName: Personaje:Beefy_R_leg_Grp
+      position: {x: -0, y: 0.0008451179, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -125,11 +3300,11 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 46a56d9f622619646bc1365aa874be91, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
