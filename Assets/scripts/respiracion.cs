@@ -16,11 +16,6 @@ public class respiracion : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log("Espacio detectado");
-            anim.SetTrigger("salto");
-        }
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
@@ -45,10 +40,10 @@ public class respiracion : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
             anim.SetTrigger("salto");
 
-        if (Input.GetKeyDown(KeyCode.O))
+        if (Input.GetKeyDown(KeyCode.Q))
             anim.SetTrigger("pose");
 
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.E))
             anim.SetTrigger("recoger");
     }
 }
