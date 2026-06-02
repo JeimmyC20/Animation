@@ -1,52 +1,49 @@
-using UnityEngine;
+Ôªøusing UnityEngine;
 
 public class respiracion : MonoBehaviour
-
 {
-    public float moveSpeed = 5f;     // Velocidad de movimiento
-    public float rotationSpeed = 700f; // Velocidad de rotaciÛn
+    public float moveSpeed = 5f;
+    public float rotationSpeed = 700f;
 
     private CharacterController characterController;
+    private Animator anim;  // ‚Üê ESTO faltaba
 
     void Start()
     {
-        // Obtener el CharacterController del personaje
         characterController = GetComponent<CharacterController>();
-
-        if (characterController == null)
-        {
-            Debug.LogError("El personaje necesita un componente CharacterController.");
-        }
+        anim = GetComponent<Animator>();  // ‚Üê ESTO faltaba
     }
 
     void Update()
     {
-        // Obtener el input del jugador
-        float horizontal = Input.GetAxis("Horizontal"); // A, D o flechas izquierda/derecha
-        float vertical = Input.GetAxis("Vertical");     // W, S o flechas arriba/abajo
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
 
-        // Calcular la direcciÛn del movimiento
         Vector3 moveDirection = new Vector3(horizontal, 0, vertical);
-
-        // Convertir la direcciÛn local a global en relaciÛn con la c·mara
         moveDirection = Camera.main.transform.TransformDirection(moveDirection);
+        moveDirection.y = 0;  // correcto, sin movimiento en Y
 
-        // Asegurarse de que el personaje no se mueva en el eje Y
-        moveDirection.y = 0;
+        bool moving = moveDirection.magnitude > 0.1f;
 
-        // Mover al personaje
-        if (moveDirection.magnitude > 0.1f)
+        anim.SetBool("caminar", moving);  // ‚Üê ESTO faltaba
+
+        if (moving)
         {
             characterController.Move(moveDirection * moveSpeed * Time.deltaTime);
 
-            // Rotar al personaje hacia la direcciÛn del movimiento
             Quaternion toRotation = Quaternion.LookRotation(moveDirection, Vector3.up);
-
             transform.rotation = Quaternion.RotateTowards(
                 transform.rotation,
                 toRotation,
                 rotationSpeed * Time.deltaTime
             );
         }
+
+        // Salto
+        if (Input.GetKeyDown(KeyCode.Space))
+            anim.SetTrigger("saltar");
+
+        // Pose guardi√°n (S mantenido)
+        anim.SetBool("pose", Input.GetKey(KeyCode.S));
     }
 }
