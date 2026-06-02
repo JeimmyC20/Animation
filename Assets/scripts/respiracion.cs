@@ -4,14 +4,13 @@ public class respiracion : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float rotationSpeed = 700f;
-
     private CharacterController characterController;
-    private Animator anim;  // ← ESTO faltaba
+    private Animator anim;
 
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-        anim = GetComponent<Animator>();  // ← ESTO faltaba
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -21,29 +20,33 @@ public class respiracion : MonoBehaviour
 
         Vector3 moveDirection = new Vector3(horizontal, 0, vertical);
         moveDirection = Camera.main.transform.TransformDirection(moveDirection);
-        moveDirection.y = 0;  // correcto, sin movimiento en Y
+        moveDirection.y = 0;
 
         bool moving = moveDirection.magnitude > 0.1f;
 
-        anim.SetBool("caminar", moving);  // ← ESTO faltaba
+        // --- CAMINAR ---
+        anim.SetBool("caminado", moving);
 
         if (moving)
         {
             characterController.Move(moveDirection * moveSpeed * Time.deltaTime);
-
             Quaternion toRotation = Quaternion.LookRotation(moveDirection, Vector3.up);
             transform.rotation = Quaternion.RotateTowards(
-                transform.rotation,
-                toRotation,
+                transform.rotation, toRotation,
                 rotationSpeed * Time.deltaTime
             );
         }
 
-        // Salto
+        // --- SALTAR (Espacio) ---
         if (Input.GetKeyDown(KeyCode.Space))
-            anim.SetTrigger("saltar");
+            anim.SetTrigger("salto");
 
-        // Pose guardián (S mantenido)
-        anim.SetBool("pose", Input.GetKey(KeyCode.S));
+        // --- POSE GUARDIAN (S mantenido) ---
+        if (Input.GetKeyDown(KeyCode.S))
+            anim.SetTrigger("pose");
+
+        // --- RECOGER OBJETO (A) ---
+        if (Input.GetKeyDown(KeyCode.A))
+            anim.SetTrigger("recoger");
     }
 }
